@@ -5,3 +5,46 @@ Author: Alphadesign.com
 Description: Alpha design wordpress theme
 Version: 1.0
 */
+body{
+    font-family: 'Montserrat';
+    background-color: rgb(0,0,0);
+}
+.carousel{
+    position: center;
+    margin: auto;
+}
+.carousel-item img{
+    width: 100%;
+    height: auto;
+}
+img {
+    width: 100%;
+    height: auto;
+  }
+.headstyle li a {
+    font-weight: bold;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+.headstyle{
+    padding: 2%;
+}
+.headstyle ul{
+    font-weight: bold;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #000000;
+  }
+  
+.headstyle li {
+    font-weight: bold;
+    float: left;
+  }
+.footerstyle{
+    color: white;
+}
