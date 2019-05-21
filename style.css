@@ -43,15 +43,17 @@ body{
 }
 
 .car-overlay{
-    top:20vh;
+    top:15vw;
 }
 .car-overlay h1{
-    font-weight: bolder;
-    font-size: 5vh;
+    font-weight: bold;
+    font-size: 4.5vh;
 }
 .car-overlay p{
-    font-weight: bolder;
     font-size: 2vh;
+}
+.car-overlay a{
+    font-size: avh;
 }
 
 
