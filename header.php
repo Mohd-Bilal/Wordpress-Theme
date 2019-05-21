@@ -7,15 +7,35 @@
     <?php wp_head();?>
 </head>
 <!-- <header> -->
-<div class='headstyle'>
-<ul>
-<li><a>ABOUT</a></li>
-<li><a>PHILOSOPHY</a></li>
-<li><a>FACILITY</a></li>
-<li><a>GEAR</a></li>
-<li><a>BLOG</a></li>
-<li><a>FILMOGRAPHY</a></li>
-</ul>
-</div>
+<nav class="navbar navbar-expand-lg sticky-top  ">
+  <button  class="navbar-toggler custom-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+    
+        <span class="navbar-toggler-icon" ></span>
+
+  </button>
+  <div class="collapse navbar-collapse" id="navbarText">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">ABOUT <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">PHILOSOPHY</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">FACILITY</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">GEAR</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">BLOG</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">FILMOGRAPHY</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
 <!-- </header> -->
 
