@@ -34,19 +34,20 @@ endif;
     </ol>
     <div class="carousel-inner">
     <?php
- 
-     if ( have_posts() ) :
+      $args = array('post_type'=>'carousel','post_status'=>'publish','posts_per_page'=>3);
+      $loop = new WP_Query($args);
+      if($loop->have_posts()):
         $flag = True;
-         while ( have_posts() ) : the_post(); ?>
-        <?php    
-        if ($flag) :
-            echo '<div class="carousel-item active">';
-        else :
-            echo '<div class="carousel-item ">';
-        endif;
-        $flag = False; 
-        ?>
-        <img src="<?php echo get_the_post_thumbnail_url(get_the_ID(),'full'); ?>" class="d-block w-100 " alt="...">
+      while($loop->have_posts()) : $loop->the_post(); ?>
+      <?php 
+      if($flag) :
+          echo '<div class="carousel-item active">';
+      else :
+        echo '<div class="carousel-item ">';
+      endif;
+      $flag = False;
+      ?>
+       <img src="<?php echo get_the_post_thumbnail_url(get_the_ID(),'full'); ?>" class="d-block w-100 " alt="...">
         <div class="carousel-caption  text-left car-overlay">
           <h1><?php the_title() ?></h1>
           <br>
@@ -60,7 +61,7 @@ endif;
          echo '<p>There are no posts!</p>';
   
     endif;
-  
+
     ?>
 
     </div>

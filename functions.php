@@ -16,7 +16,39 @@ function alpha_setup(){
 
 }
 
-add_theme_support('menus');
-add_theme_support('post-thumbnails');
-
+// add_theme_support('menus');
+// add_theme_support('post-thumbnails');
 add_action('wp_enqueue_scripts', 'alpha_setup');
+
+//Adds title tag and post-thumbnails functionality to theme
+function alpha_init(){
+    add_theme_support('post-thumbnails');
+    add_theme_support('title-tag');
+
+}
+
+add_action('after_setup_theme','alpha_init');
+
+//Used to create a new carousel item
+
+function carousel_item(){
+    register_post_type('carousel',
+    array(
+        'rewrite' => array('slug'=>'carousel'),
+        'labels' => array(
+            'name' => 'Carousel Items',
+            'singular_name' => 'Carousel Item',
+            'add_new_item' => 'Add New Carousel Item',
+            'edit_item' => 'Edit Carousel Item'
+        ),
+        'menu-icon' => 'dashicons-format-image',
+        'public' => true,
+        'has_archive' => true,
+        'supports' => array(
+            'title','thumbnail','editor'
+        ) 
+    ));
+}
+
+add_action('init', 'carousel_item');
+
