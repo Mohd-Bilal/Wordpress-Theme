@@ -50,11 +50,19 @@ body{
     font-size: 4.5vh;
 }
 .car-overlay p{
-    font-size: 2vh;
+    font-size: 2.2vh;
 }
 .car-overlay a{
-    font-size: avh;
+    font-size: 2vh;
+    color:rgb(160, 140, 140);
 }
+.car-overlay a:hover{
+    font-size: 2vh;
+    color:white;
+    text-decoration: none;
+}
+
+
 
 
 .footerstyle{
