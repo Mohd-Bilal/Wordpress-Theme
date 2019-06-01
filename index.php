@@ -25,7 +25,7 @@ endif;
 <!--posts-->
 
 
-<div class="bd-example">
+<div class="bd-example ">
   <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
     <ol class="carousel-indicators" style="bottom:5wh">
       <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
@@ -76,4 +76,5 @@ endif;
   </div>
 </div>
 </body>
+<?php include("about.php"); ?>
 <?php get_footer() ?>
