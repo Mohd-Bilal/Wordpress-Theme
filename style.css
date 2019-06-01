@@ -61,6 +61,32 @@ body{
     color:white;
     text-decoration: none;
 }
+ol.carousel-indicators {
+    position: absolute;
+    bottom: 10px;
+    margin: 0;
+    left: 0;
+    right: 0;
+    width: auto;
+ }
+ 
+ ol.carousel-indicators li,
+ ol.carousel-indicators li.active {
+    width: .7rem;
+    height: .7rem;
+    margin: .5rem;
+    border-radius: 50%;
+    border: .1rem;
+    border-color: white;
+ }
+ 
+ ol.carousel-indicators li {
+    background: rgba(255,255,255,0);
+ }
+ 
+ ol.carousel-indicators li.active {
+    background: white;
+ }
 
 
 
