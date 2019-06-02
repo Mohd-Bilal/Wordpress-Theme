@@ -77,4 +77,5 @@ endif;
 </div>
 </body>
 <?php include("about.php"); ?>
+<?php include("facility.php") ?>
 <?php get_footer() ?>

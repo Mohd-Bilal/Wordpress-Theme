@@ -52,3 +52,24 @@ function carousel_item(){
 
 add_action('init', 'carousel_item');
 
+function facility_carousel_items(){
+    register_post_type('facility',
+    array(
+        'rewrite' => array('slug'=>'facility_carousel_items'),
+        'labels' => array(
+            'name' => 'Facility Carousel Items',
+            'singular_name' => 'Facility Carousel Item',
+            'add_new_item' => 'Add New Facility',
+            'edit_item' => 'Edit Facility'
+        ),
+        'menu-icon' => 'dashicons-format-image',
+        'public' => true,
+        'has_archive' => true,
+        'supports' => array(
+            'title','thumbnail','editor'
+        ) 
+    ));
+}
+
+
+add_action('init','facility_carousel_items');
