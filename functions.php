@@ -16,8 +16,7 @@ function alpha_setup(){
 
 }
 
-// add_theme_support('menus');
-// add_theme_support('post-thumbnails');
+
 add_action('wp_enqueue_scripts', 'alpha_setup');
 
 //Adds title tag and post-thumbnails functionality to theme
@@ -28,6 +27,12 @@ function alpha_init(){
 }
 
 add_action('after_setup_theme','alpha_init');
+
+function load_dashicons_front_end() {
+    wp_enqueue_style( 'dashicons' );
+}
+add_action( 'wp_enqueue_scripts', 'load_dashicons_front_end' );
+
 
 //Used to create a new carousel item
 
@@ -73,3 +78,76 @@ function facility_carousel_items(){
 
 
 add_action('init','facility_carousel_items');
+
+//Microphones
+
+function microphones(){
+    register_post_type('microphone',
+    array(
+        'rewrite' => array('slug'=>'microphone'),
+        'labels' => array(
+            'name' => 'Microphones',
+            'singular_name' => 'Microphone',
+            'add_new_item' => 'Add New Microphone',
+            'edit_item' => 'Edit Microphone'
+        ),
+        'menu-icon' => 'dashicons-dashboard',
+        'public' => true,
+        'has_archive' => true,
+        'supports' => array(
+            'title','thumbnail','editor'
+        ) 
+    ));
+}
+
+
+add_action('init','microphones');
+
+//System
+
+function systems(){
+    register_post_type('system',
+    array(
+        'rewrite' => array('slug'=>'system'),
+        'labels' => array(
+            'name' => 'Systems',
+            'singular_name' => 'System',
+            'add_new_item' => 'Add New System',
+            'edit_item' => 'Edit System'
+        ),
+        'menu-icon' => 'dashicons-format-image',
+        'public' => true,
+        'has_archive' => true,
+        'supports' => array(
+            'title','thumbnail','editor'
+        ) 
+    ));
+}
+
+
+add_action('init','systems');
+
+//Headphones
+
+function headphones(){
+    register_post_type('headphone',
+    array(
+        'rewrite' => array('slug'=>'headphone'),
+        'labels' => array(
+            'name' => 'Headphones',
+            'singular_name' => 'Headphone',
+            'add_new_item' => 'Add Headphone',
+            'edit_item' => 'Edit Headphone'
+        ),
+        'menu-icon' => 'dashicons-format-image',
+        'public' => true,
+        'has_archive' => true,
+        'supports' => array(
+            'title','thumbnail','editor'
+        ) 
+    ));
+}
+
+
+add_action('init','headphones');
+

@@ -120,26 +120,7 @@ ol.carousel-indicators {
 }
 
 
-@media screen and (max-width: 600px) {
-    .about h1{
-        font-weight: bold;
-        font-size: 20vh;
-    }
-    .about p{
-        color: white;
-        padding-left:1vw;
-        font-weight: 300;
-        font-size: 2vh;
-        font-style: italic; 
-    }
-    .about b{
-        font-style: normal;
-        font-weight: bolder;
-    }
-    .about img{
-        width:80%;
-    }
-  }
+
 
 .facility_carousel_image{
     /* width: 15%;
@@ -176,3 +157,23 @@ hr{
     color:white;
     font-size:1.75rem;
 }
+@media screen and (max-width: 600px) {
+    .about h1{
+        font-weight: bold;
+        font-size: 20vh;
+    }
+    .about p{
+        color: white;
+        padding-left:1vw;
+        font-weight: 300;
+        font-size: 2vh;
+        font-style: italic; 
+    }
+    .about b{
+        font-style: normal;
+        font-weight: bolder;
+    }
+    .about img{
+        width:80%;
+    }
+  }
