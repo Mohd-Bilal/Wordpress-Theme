@@ -142,26 +142,28 @@ ol.carousel-indicators {
   }
 
 .facility_carousel_image{
-    width: 20%;
-    height: auto;
+    /* width: 15%;
+    height: auto; */
     border-radius:50%; 
-    margin-left: 20%;  
+    margin-left: 7%;  
     margin-bottom: 4%;
 }
 .facility_carousel{
     width: 100%;
     height: 40%;
-    max-height: 800px !important;
+    max-height: 600px !important;
 }
 .facility-description{
-    margin-left: 30%;
+    margin-left: 20%;
+    font-size: 1rem;
+    margin-right: 5%;
 }
 .facility-carousel-item{
     padding-top:2%;
-    padding-bottom:2%;
+    padding-bottom:5%;
 }
 .facility-head{
-    color:white;text-align:center;font-size:5em;padding-top: 5%;
+    color:white;text-align:center;font-size:5rem;padding-top: 5%;
 }
 hr{
     background-color:rgb(66, 62, 62);width:70%;
@@ -171,4 +173,6 @@ hr{
 }
 .facility-description h2{
     font-style: bold;
+    color:white;
+    font-size:1.75rem;
 }
