@@ -78,4 +78,5 @@ endif;
 </body>
 <?php include("about.php"); ?>
 <?php include("facility.php") ?>
+<?php include("gear.php"); ?>
 <?php get_footer() ?>
