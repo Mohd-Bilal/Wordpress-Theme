@@ -1,4 +1,4 @@
-<div class="about container  d-flex flex-cloumn align-items-center   ">
+<div class="about container  d-flex flex-cloumn align-items-center" id="about">
     <div class="row ">
         <div class="col-lg-7 col-md-7 col-sm-12 col-xm-12 ">
         <h1>About</h1>

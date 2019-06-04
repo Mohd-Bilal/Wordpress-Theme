@@ -1,5 +1,5 @@
 <hr>
-<h2 class="facility-head">Facility</h2>
+<h2 class="facility-head" id="facility">Facility</h2>
 <div class="bd-example ">
     <div id="facilityCarousel" class="carousel slide" style="margin: 0 auto;" data-ride="carousel">
         <ol class="carousel-indicators" style="bottom:5wh">

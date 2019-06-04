@@ -14,6 +14,9 @@ body{
     font-family: 'Montserrat';
     background-color: rgb(0,0,0);
 }
+a{
+    outline: none;
+}
 .navbar{
     background-color: #000000;
 }
@@ -26,6 +29,9 @@ body{
     padding: 14px 16px;
     text-decoration: none;
   }
+.navbar-nav li a:hover {
+    color:rgb(156, 152, 152);
+}
 .nav-item{
     padding-left: 2vh;
     padding-right: 2vh;
@@ -180,7 +186,6 @@ hr{
     color:white;
     text-align:center;
     font-size:1rem;
-    outline: none;
 }
 .gear a:hover{
     color:rgb(156, 152, 152);
