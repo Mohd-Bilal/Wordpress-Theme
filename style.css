@@ -238,6 +238,7 @@ hr{
 }
 
 .button {
+    margin: 0 auto
     font-size: 13px;
     color: white;
     background: #c19663;
@@ -255,7 +256,8 @@ hr{
 @media screen and (max-width: 600px) {
     .about h1{
         font-weight: bold;
-        font-size: 20vh;
+        font-size: 25vw;
+        text-align: center;
     }
     .about p{
         color: white;
@@ -270,6 +272,8 @@ hr{
     }
     .about img{
         width:80%;
+        display: block;
+        margin: 0 auto
     }
     .footerstyle{
         color: #707070;
@@ -292,13 +296,19 @@ hr{
     }
 
     .vl{
-        padding-left: 30%;
+        /* padding-left: 30%;
         padding-right: 30%;
-        padding-top: 10%;
+        padding-top: 10%; */
+        margin: 0 auto;
+        border-bottom: 1px solid #c19663;
+        width: 16rem;
+    }
+    .vl img{
+        margin: 0 auto
     }
    
     .vl p{
-        text-align: left;
+        text-align: center;
         font-size:15px;
         padding-left: 3%;
     } 
@@ -330,6 +340,7 @@ hr{
     .vl img{
         padding-top: 50%;
         vertical-align: middle;
+        margin: 0 auto
         /* padding-bottom: 30%; */
     }
     .vl p{

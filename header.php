@@ -19,7 +19,7 @@
         <ul class="navbar-nav mr-auto  ">
             <li class="nav-item ">
                 <!-- <a class="nav-link" href="#about"> -->
-                  <div class="d-flex align-items-center nav-link">
+                  <div class="d-flex  align-items-center nav-link">
                     <button class="btn button">BOOK NOW</button>
 </div>
                     <!-- </a> -->
