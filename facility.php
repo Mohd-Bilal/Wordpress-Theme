@@ -45,6 +45,7 @@
         ?>
 
     </div>
+
     <div style="bottom : 1px">
         <a class="carousel-control-prev" href="#facilityCarousel" role="button" data-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -56,4 +57,7 @@
         </a>
     </div>
 </div>
+
+
 </div>
+<p class="facility_vip">In addition to this,AuO2 Studio also has a private VIP lounge for the discussions or rest you might want to have in between that creative action along with high speed internet access</p>
