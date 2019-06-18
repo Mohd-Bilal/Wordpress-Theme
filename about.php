@@ -23,7 +23,7 @@
 
         </div>
         <div class="col-lg-5 col-md-5 col-sm-12 col-xm-12 container d-flex flex-cloumn align-items-center justify-content-centre ">
-        <img  src=<?php  echo get_template_directory_uri().'/images/person.jpeg' ?>  alt="">
+        <img  src=<?php  echo get_template_directory_uri().'/images/Sreejesh.png' ?>  alt="">
         </div>
 
     </div>

@@ -1,4 +1,4 @@
-<div id="gear">
+<div id="gear" class="gear-background">
     <h2 class="facility-head">Gear</h2>
     <div class="container">
     <div class="row ">

@@ -128,7 +128,7 @@ ol.carousel-indicators {
     width:90%;
 }
 .footerstyle{
-    color: white;
+    color: #707070;
     background-color:#0f0d0e;
     margin-top: 3%;
     padding-top: 5%;
@@ -142,26 +142,11 @@ ol.carousel-indicators {
 .footerstyle li{
     padding-bottom: 3%;
 }
+.footerstyle li a{
+    color: #707070;
 
-.vl{
-    border-right: 2px solid #c19663;
-    height: 16rem;
 }
-.vl img{
-    padding-top: 50%;
-    vertical-align: middle;
-    /* padding-bottom: 30%; */
-}
-.vl p{
-    size:15px;
-}
-.address{
-    padding-left: 3%;
-    padding-right: 3%;
-}
-.address p{
-    padding-top: 4%;
-}
+
 .facility_carousel_image{
     width: 100%;
     border-radius:50%; 
@@ -199,6 +184,14 @@ hr{
     color:white;
     font-size:1.75rem;
 }
+.facility_vip{
+    text-align:center;
+    color:#707070;
+    padding-left: 8%;
+    padding-right: 8%;
+    padding-top: 5%;
+    padding-bottom:5%;
+}
 .gear{
     color:white;
     text-align:center;
@@ -218,6 +211,13 @@ hr{
 }
 .gear a:hover{
     color:rgb(156, 152, 152);
+}
+.gear-background{
+    background-image: url("images/amplifier.png");
+    background-position: center;
+    background-size: cover;
+    padding-top: 2%;
+    padding-bottom: 8%;
 }
 .modal-header{
     border: #000000;
@@ -271,4 +271,82 @@ hr{
     .about img{
         width:80%;
     }
+    .footerstyle{
+        color: #707070;
+        background-color:#0f0d0e;
+        margin-top: 3%;
+        padding-top: 5%;
+    }
+    .footerstyle ul{
+        list-style-type: none;
+        padding-top:3%;
+        text-align: center;
+        margin-left: -10%;
+    }
+    .footerstyle li{
+        padding-bottom: 3%;
+    }
+    .footerstyle li a{
+        color: #707070;
+    
+    }
+
+    .vl{
+        padding-left: 30%;
+        padding-right: 30%;
+        padding-top: 10%;
+    }
+   
+    .vl p{
+        text-align: left;
+        font-size:15px;
+        padding-left: 3%;
+    } 
+    
+    .address{
+        padding-left: 0%;
+        padding-right: 0%;
+        padding-top: 7%;
+        padding-bottom: 20%;
+        text-align: center
+    }
+    .address h5{
+        color:white;
+        opacity: 0.84;
+    }
+    .address p{
+        padding-top: 5%;
+        padding-left: 10%;
+        padding-right: 10%;
+        font-size: 15px;
+    } 
+ 
   }
+@media screen and (min-width: 768px){
+    .vl{
+        border-right: 2px solid #c19663;
+        height: 16rem;
+    }
+    .vl img{
+        padding-top: 50%;
+        vertical-align: middle;
+        /* padding-bottom: 30%; */
+    }
+    .vl p{
+        size:15px;
+    }
+
+    .address{
+        padding-left: 3%;
+        padding-right: 3%;
+        padding-top: 2%;
+    }
+    .address h5{
+        color:white;
+        opacity: 0.84;
+    }
+    .address p{
+        padding-top: 4%;
+        font-size: 18px;
+    }
+}
