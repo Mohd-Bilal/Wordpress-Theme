@@ -11,8 +11,8 @@
             <li style="color:#c19663">BOOK NOW</li>
         </ul>
     </div>
-    <div class="col-md-2 vl">
-    <img src=<?php  echo get_template_directory_uri().'/images/Image2.png' ?>  alt="">
+    <div class="col-md-2 vl ">
+    <img class="container d-flex flex-cloumn align-items-center justify-content-centre" src=<?php  echo get_template_directory_uri().'/images/Image2.png' ?>  alt="">
     <p>AUDIO STUDIOS</p>
     </div>
     <div class="col-md-4 address">
