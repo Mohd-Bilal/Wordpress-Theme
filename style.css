@@ -19,6 +19,7 @@ a{
 }
 .navbar{
     background-color: #000000;
+    border-bottom: 1px solid #c19663;
 }
 .navbar-nav li a {
     font-weight: bold;
