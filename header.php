@@ -18,11 +18,9 @@
     <div class="collapse navbar-collapse" id="navbarText">
         <ul class="navbar-nav mr-auto  ">
             <li class="nav-item ">
-                <!-- <a class="nav-link" href="#about"> -->
                   <div class="d-flex  align-items-center nav-link">
                     <button class="btn button">BOOK NOW</button>
-</div>
-                    <!-- </a> -->
+                  </div>
             </li>
             <li class="nav-item active">
                 <a class="nav-link" href="#about">ABOUT <span class="sr-only">(current)</span></a>
@@ -43,7 +41,10 @@
                 <a class="nav-link" href="#">FILMOGRAPHY</a>
             </li>
         </ul>
+
     </div>
+    <img class="studio-logo" src=<?php echo get_template_directory_uri().'/images/Image2.png'?> >
+
 </nav>
 
 <!-- </header> -->

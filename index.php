@@ -1,38 +1,16 @@
 <?php get_header() ?>
-<!-- <img src=<?php  echo get_template_directory_uri().'/images/carousel_image_main.jpg' ?> > -->
 <body>
 
-<!-- posts -->
-<!-- <?php
- 
-if ( have_posts() ) :
-	while ( have_posts() ) : the_post(); ?>
- 
-        <h2><?php the_title() ?></h2>
-        <?php the_content() ?>
-        <?php the_excerpt() ;?>
-        <a href="<?php the_permalink(); ?>">Learn more</a>
-        <img src="<?php echo get_the_post_thumbnail_url(get_the_ID(),'full'); ?>" alt="">
-        
-	<?php endwhile;
- 
-else :
-	echo '<p>There are no posts!</p>';
- 
-endif;
- 
-?>  -->
-<!--posts-->
 
 
-<div class="bd-example ">
+<div class="bd-example grey-overlay">
   <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
     <ol class="carousel-indicators" style="bottom:5wh">
       <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
       <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
       <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
     </ol>
-    <div class="carousel-inner">
+    <div class="carousel-inner ">
     <?php
       $args = array('post_type'=>'carousel','post_status'=>'publish','posts_per_page'=>3);
       $loop = new WP_Query($args);
@@ -47,12 +25,14 @@ endif;
       endif;
       $flag = False;
       ?>
-       <img src="<?php echo get_the_post_thumbnail_url(get_the_ID(),'full'); ?>" class="d-block w-100 " alt="...">
-        <div class="carousel-caption  text-left car-overlay">
+       <img src="<?php echo get_the_post_thumbnail_url(get_the_ID(),'full'); ?>" class="d-block carousel-resp " alt="...">
+        <div class="carousel-caption  car-overlay">
           <h1><?php the_title() ?></h1>
           <br>
           <p><?php the_excerpt() ?></p>
-          <a class='learn' href="<?php the_permalink(); ?>">Learn more >></a>
+          <a class="learn" href="<?php the_permalink(); ?>">Learn more >></a>
+          <button class="learn-more " href="<?php the_permalink(); ?>">LEARN MORE</button>
+
         </div>
       </div>
       <?php endwhile;
