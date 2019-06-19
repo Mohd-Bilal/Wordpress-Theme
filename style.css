@@ -463,6 +463,9 @@ hr{
     .learn-more{
         display: none;
     }
+    .learn{
+        color: white;
+    }
     .car-overlay{
         top:15vw;
         text-align: left !important;

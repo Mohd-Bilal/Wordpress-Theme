@@ -30,7 +30,7 @@
           <h1><?php the_title() ?></h1>
           <br>
           <p><?php the_excerpt() ?></p>
-          <a class="learn" href="<?php the_permalink(); ?>">Learn more >></a>
+          <a class="learn" style="color:white"href="<?php the_permalink(); ?>">LEARN MORE ></a>
           <button class="learn-more " href="<?php the_permalink(); ?>">LEARN MORE</button>
 
         </div>
