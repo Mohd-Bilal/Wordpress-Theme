@@ -25,7 +25,7 @@
             <div class="facility-description row align-items-center">
                 <div class="col-md-4 align-self-center">
                     <img src="<?php echo get_the_post_thumbnail_url(get_the_ID(),'full'); ?>"
-                        class="img-fluid d-block rounded-circle  " alt="...">
+                        class="img-fluid d-block rounded-circle facility_carousel_image " alt="...">
                 </div>
                 <div class="col-md-8 align-self-center">
                     <h2><?php the_title() ?></h2>

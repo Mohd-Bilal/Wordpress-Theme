@@ -69,24 +69,6 @@ a{
     height: 100%;
 }
 
-.about h1{
-    font-weight: bold;
-    font-size: 25vh;
-}
-.about p{
-    color: white;
-    padding-left:9vw;
-    font-weight: 300;
-    font-size: 2.1vh;
-    font-style: italic; 
-}
-.about b{
-    font-style: normal;
-    font-weight: bolder;
-}
-.about img{
-    width:90%;
-}
 .studio-logo{
     height: 2.2rem;
     width: auto;
@@ -114,51 +96,10 @@ a{
 
 }
 
-.facility_carousel_image{
-    width: 100%;
-    border-radius:50%; 
-    margin-left: 7%;  
-    margin-bottom: 4%;
-}
-.facility_carousel{
-    width: 100%;
-    height: 40%;
-    max-height: 600px !important;
-}
-.facility-description{
-    margin-left: 20%;
-    font-size: 1rem;
-    margin-right: 5%;
-}
-.facility-carousel-item{
-    padding-top:2%;
-    padding-bottom:5%;
-}
-.facility-head{
-    color:white;
-    text-align:center;
-    font-size:5rem;
-    padding: 5%;
-}
 hr{
     background-color:rgb(66, 62, 62);width:70%;
 }
-.facility-description p{
-    color:gray;
-}
-.facility-description h2{
-    font-style: bold;
-    color:white;
-    font-size:1.75rem;
-}
-.facility_vip{
-    text-align:center;
-    color:#707070;
-    padding-left: 8%;
-    padding-right: 8%;
-    padding-top: 5%;
-    padding-bottom:5%;
-}
+
 .gear{
     color:white;
     text-align:center;
@@ -253,6 +194,8 @@ hr{
         font-size: 25vw;
         text-align: center;
         margin-left: 40px;
+        color: #FFEEDB26;
+
     }
     .about p{
         color: white;
@@ -389,9 +332,134 @@ hr{
      ol.carousel-indicators li.active {
         background: #c19663;;
      }
+     .facility_carousel_image{
+        width: 80%;
+        border-radius:50%; 
+        margin-left: 10%;  
+        margin-bottom: 4%;
+    }
+    .facility_carousel{
+        width: 100%;
+        height: 40%;
+        max-height: 600px !important;
+    }
+    .facility-description{
+        margin-left: 20%;
+        font-size: 1rem;
+        margin-right: 5%;
+        text-align: center;
+        margin-right: 20%;
+    }
+    .facility-description p{
+        margin-right: 0%;
+        color:gray;
+        margin-bottom: 20%;
+    
+    }
+    .facility-carousel-item{
+        padding-top:2%;
+        padding-bottom:5%;
+    }
+    .facility-head{
+        color:#FFEEDB;
+        text-align:center;
+        font-size:2.5rem;
+        padding: 5%;
+    }
+    
+    .facility-description h2{
+        font-weight: 700;
+        color:white;
+        font-size:1.5rem;
+        margin-bottom: -10%;
+    }
+    .facility_vip{
+        text-align:center;
+        color:#707070;
+        padding-left: 8%;
+        padding-right: 8%;
+        padding-top: 5%;
+        padding-bottom:5%;
+        font-size: 0.7rem;
+    }
+    
  
   }
 @media screen and (min-width: 768px){
+
+.facility_carousel_image{
+    width: 100%;
+    border-radius:50%; 
+    margin-left: 7%;  
+    margin-bottom: 4%;
+}
+.facility_carousel{
+    width: 100%;
+    height: 40%;
+    max-height: 600px !important;
+}
+.facility-description{
+    margin-left: 20%;
+    font-size: 1rem;
+    margin-right: 5%;
+}
+.facility-description p{
+    margin-right: 15%;
+    color:gray;
+
+}
+.facility-carousel-item{
+    padding-top:2%;
+    padding-bottom:5%;
+}
+.facility-head{
+    text-align:center;
+    font-size:5rem;
+    padding: 5%;
+    color: #FFEEDB;
+}
+
+.facility-description h2{
+    font-style: bold;
+    color:white;
+    font-size:1.75rem;
+}
+.facility_vip{
+    text-align:center;
+    color:#707070;
+    padding-left: 8%;
+    padding-right: 8%;
+    padding-top: 5%;
+    padding-bottom:5%;
+}
+
+.about{
+    margin-top: 40px;
+    margin-bottom: 140px;
+}
+
+.about h1{
+    font-weight: bold;
+    font-size: 25vh;
+    color: #FFEEDB26
+}
+.about p{
+    color: white;
+    padding-left:9vw;
+    font-weight: 300;
+    font-size: 2.1vh;
+    font-style: italic; 
+    margin-top: -250px;
+}
+.about b{
+    font-style: normal;
+    font-weight: bolder;
+}
+.about img{
+    width:70%;
+    margin-top: 20%;
+    margin-left: 20%;
+}
     .learn-more{
         display: none;
     }
@@ -419,6 +487,7 @@ hr{
         position: absolute;
         bottom: 10px;
         margin: 0;
+        
         left: 0;
         right: 0;
         width: auto;
