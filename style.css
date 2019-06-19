@@ -223,12 +223,14 @@ hr{
     
   }
 @media screen and (max-width: 600px) {
-    .grey-overlay{
+    /* .grey-overlay{
         width: 100%;
         height: 100%;
         background: rgba(0, 0, 0, 0.5);
-    }
+    } */
     .carousel-resp{
+        opacity: 0.5;
+        filter: alpha(opacity=50);
         height: 30rem;
         width:  45rem;
         overflow:hidden;
@@ -250,13 +252,16 @@ hr{
         font-weight: bold;
         font-size: 25vw;
         text-align: center;
+        margin-left: 40px;
     }
     .about p{
         color: white;
-        padding-left:1vw;
+        padding-left:3rem;
+        padding-right: 3rem;
         font-weight: 300;
         font-size: 2vh;
         font-style: italic; 
+        text-align: center;
     }
     .about b{
         font-style: normal;
@@ -265,7 +270,8 @@ hr{
     .about img{
         width:40%;
         display: block;
-        margin: 0 auto
+        margin: 0 auto 40px auto;
+        
     }
     .footerstyle{
         color: #707070;
