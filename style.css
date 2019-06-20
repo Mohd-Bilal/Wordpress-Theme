@@ -175,8 +175,8 @@ hr{
         height: 30rem;
         width:  45rem;
         overflow:hidden;
-        margin-left: -200px;
-        margin-right: -100px;
+        margin-left: -50%;
+        margin-right: 0px;
     }
     .navbar{
         background-color: #000000;
@@ -193,7 +193,224 @@ hr{
         font-weight: bold;
         font-size: 25vw;
         text-align: center;
-        margin-left: 40px;
+        color: #FFEEDB26;
+        margin: 10%;
+
+    }
+    .about p{
+        color: white;
+        padding-left:3rem;
+        padding-right: 3rem;
+        font-weight: 300;
+        font-size: 2vh;
+        font-style: italic; 
+        text-align: center;
+    }
+    .about b{
+        font-style: normal;
+        font-weight: bolder;
+    }
+    .about img{
+        width:40%;
+        display: block;
+        margin: 0 auto 40px auto;
+        
+    }
+    .footerstyle{
+        color: #707070;
+        background-color:#0f0d0e;
+        margin-top: 3%;
+        padding-top: 5%;
+    }
+    .footerstyle ul{
+        list-style-type: none;
+        padding-top:3%;
+        text-align: center;
+        margin-left: -10%;
+    }
+    .footerstyle li{
+        padding-bottom: 3%;
+    }
+    .footerstyle li a{
+        color: #707070;
+    
+    }
+    .learn{
+        display: none;
+    }
+    .learn-more{
+        padding:0.4rem 1rem 0.4rem 1rem;
+        margin: 0 auto;
+        font-size: 11px;
+        font-weight: 700;
+        color: white;
+        background: #c19663;
+        border-radius: 40px;
+        border-color: transparent;
+        margin-top: 6%;
+        margin-bottom: 6%;
+    }
+    .vl{
+        /* padding-left: 30%;
+        padding-right: 30%;
+        padding-top: 10%; */
+        margin: 0 auto;
+        border-bottom: 1px solid #c19663;
+        width: 16rem;
+    }
+    .vl img{
+        margin: 0 auto
+    }
+   
+    .vl p{
+        text-align: center;
+        font-size:15px;
+        padding-left: 3%;
+    } 
+    
+    .address{
+        padding-left: 0%;
+        padding-right: 0%;
+        padding-top: 7%;
+        padding-bottom: 20%;
+        text-align: center
+    }
+    .address h5{
+        color:white;
+        opacity: 0.84;
+    }
+    .address p{
+        padding-top: 5%;
+        padding-left: 10%;
+        padding-right: 10%;
+        font-size: 15px;
+    } 
+    .car-overlay{
+        top:15vw;
+        text-align: center;
+    }
+
+    .car-overlay h1{
+        /* font-weight: bld; */
+        font-size: 4.5vh;
+    }
+    .car-overlay p{
+        font-size: 2.2vh;
+    }
+    .car-overlay a{
+        font-size: 2vh;
+        color:rgb(160, 140, 140);
+    }
+    .car-overlay a:hover{
+        font-size: 2vh;
+        color:#c19663;;
+        text-decoration: none;
+    }
+    ol.carousel-indicators {
+        position: absolute;
+        bottom: 10px;
+        margin: 0;
+        left: 0;
+        right: 0;
+        width: auto;
+     }
+     
+    
+     ol.carousel-indicators li,
+     ol.carousel-indicators li.active {
+        width: .3rem;
+        height: .3rem;
+        margin: .2rem;
+        border-radius: 50%;
+        border: 0.5px solid #c19663;
+     }
+     
+     ol.carousel-indicators li {
+        background: transparent;
+     }
+     
+     ol.carousel-indicators li.active {
+        background: #c19663;;
+     }
+     .facility_carousel_image{
+        width: 80%;
+        border-radius:50%; 
+        margin-left: 10%;  
+        margin-bottom: 4%;
+    }
+    .facility_carousel{
+        width: 100%;
+        height: 40%;
+        max-height: 600px !important;
+    }
+    .facility-description{
+        margin-left: 20%;
+        font-size: 1rem;
+        margin-right: 5%;
+        text-align: center;
+        margin-right: 20%;
+    }
+    .facility-description p{
+        margin-right: 0%;
+        color:gray;
+        margin-bottom: 20%;
+    
+    }
+    .facility-carousel-item{
+        padding-top:2%;
+        padding-bottom:5%;
+    }
+    .facility-head{
+        color:#FFEEDB;
+        text-align:center;
+        font-size:2.5rem;
+        padding: 5%;
+    }
+    
+    .facility-description h2{
+        font-weight: 700;
+        color:white;
+        font-size:1.5rem;
+        margin-bottom: -10%;
+    }
+    .facility_vip{
+        text-align:center;
+        color:#707070;
+        padding-left: 8%;
+        padding-right: 8%;
+        padding-top: 5%;
+        padding-bottom:5%;
+        font-size: 0.7rem;
+    }
+    
+ 
+  }
+@media screen and (min-width: 601px) and (max-width: 767px){
+
+    .carousel-resp{
+        opacity: 0.5;
+        filter: alpha(opacity=50);
+        height: auto;
+        width:  60rem;
+        overflow:hidden;
+        margin-left: -15%;
+        margin-right: 0px;
+    }
+    .navbar{
+        background-color: #000000;
+        /* border-bottom: 1px solid #c19663; */
+    }
+    .studio-logo{
+        height: 1.5rem;
+        width: auto;
+        float: right;
+        margin-right: 4%;
+        
+    }
+    .about h1{
+        font-weight: bold;
+        font-size: 25vw;
+        text-align: center;
         color: #FFEEDB26;
 
     }
