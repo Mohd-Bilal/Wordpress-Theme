@@ -322,11 +322,16 @@ hr{
         font-size: 18px;
     }
 
+    @media screen and (max-width: 1200px){
+        .about p{
+            margin-top: 0px;
+        }
+    }
     /* Small laptops */
     @media screen and (max-width: 992px){
         .about h1{
             font-weight: bold;
-            font-size: 25vw;
+            font-size: 20vw;
             text-align: center;
             color: #FFEEDB26;
     
@@ -336,7 +341,7 @@ hr{
             padding-left:3rem;
             padding-right: 3rem;
             font-weight: 300;
-            font-size: 2vh;
+            font-size: 1.5vh;
             font-style: italic; 
             text-align: center;
             margin-top: 0px;
@@ -346,7 +351,7 @@ hr{
             font-weight: bolder;
         }
         .about img{
-            width:40%;
+            width:80%;
             display: block;
             margin: 0 auto 40px auto;
             
