@@ -1,7 +1,7 @@
 <footer>
 <div class="container-fluid">
 <div class="footerstyle row">
-    <div class="col-md-6 col-sm-12">
+    <div class="col-md-6 col-sm-12 col-xm-12">
         <ul>
             <li><a href="#about">ABOUT</a></li>
             <li><a href="#facility">FACILITY</a></li>
@@ -11,7 +11,7 @@
             <li><a href="#" style="color:#c19663">BOOK NOW</a></li>
         </ul>
     </div>
-    <div class="col-md-2 col-sm-12 vl ">
+    <div class="col-md-2 col-sm-12 col-xm-12 vl ">
     <img class="container d-flex flex-cloumn align-items-center justify-content-centre" src=<?php  echo get_template_directory_uri().'/images/Image2.png' ?>  alt="">
     <p>AUDIO STUDIOS</p>
     </div>

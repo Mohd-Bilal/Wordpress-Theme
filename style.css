@@ -288,11 +288,11 @@ hr{
      }
      
      ol.carousel-indicators li.active {
-        background: #c19663;;
+        background: #c19663;
      }
     .navbar{
         background-color: #000000;
-        border-bottom: 1px solid #c19663;
+        border-bottom: 1px solid  #c19663;
     }
     .vl{
         border-right: 2px solid #c19663;
@@ -378,7 +378,7 @@ hr{
     
     .navbar{
         background-color: #000000;
-        /* border-bottom: 1px solid #c19663; */
+        border-bottom: 0px;
     }
     .studio-logo{
         height: 1.5rem;
@@ -428,10 +428,14 @@ hr{
         padding-top: 10%; */
         margin: 0 auto;
         border-bottom: 1px solid #c19663;
+        border-right:0px ;
         width: 16rem;
     }
     .vl img{
-        margin: 0 auto
+        margin: 0 auto;
+        padding-top: 0%;
+        width:50%;
+
     }
    
     .vl p{
@@ -594,7 +598,7 @@ hr{
     }
     .navbar{
         background-color: #000000;
-        /* border-bottom: 1px solid #c19663; */
+        border-bottom: 0px ;
     }
     .studio-logo{
         height: 1.5rem;
@@ -667,15 +671,16 @@ hr{
     }
     .vl{
         /* padding-left: 30%;
-        padding-right: 30%;
-        padding-top: 10%; */
+        padding-right: 30%; */
         margin: 0 auto;
         border-right: 0px;
         border-bottom: 1px solid #c19663;
         width: 16rem;
     }
     .vl img{
-        margin: 0 auto
+        margin: 0 auto;
+        padding-top: 0%;
+        width:40%;
     }
    
     .vl p{
