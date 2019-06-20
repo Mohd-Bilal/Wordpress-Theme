@@ -361,7 +361,7 @@ hr{
 
   
 /* Large Phones */
-  @media screen and (max-width: 768px){
+  @media screen and (max-width: 767px){
 
     .about img{
         width:60%;
@@ -690,6 +690,8 @@ hr{
         text-align: center;
         font-size:15px;
         padding-left: 3%;
+        padding-bottom: 0%;
+        border-bottom: 0px ;
     } 
     
     .address{
