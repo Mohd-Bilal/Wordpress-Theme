@@ -375,6 +375,7 @@ hr{
         margin-left: -15%;
         margin-right: 0px;
     }
+    
     .navbar{
         background-color: #000000;
         /* border-bottom: 1px solid #c19663; */
@@ -464,9 +465,11 @@ hr{
     .car-overlay h1{
         /* font-weight: bld; */
         font-size: 4.5vh;
+        text-align: center;
     }
     .car-overlay p{
         font-size: 2.2vh;
+        text-align: center;
     }
     .car-overlay a{
         font-size: 2vh;
@@ -584,6 +587,10 @@ hr{
         overflow:hidden;
         margin-left: -50%;
         margin-right: 0px;
+    }
+    .car-overlay{
+        top:15vw;
+        text-align: center;
     }
     .navbar{
         background-color: #000000;
