@@ -427,9 +427,8 @@ hr{
         padding-right: 30%;
         padding-top: 10%; */
         margin: 0 auto;
-        border-bottom: 1px solid #c19663;
         border-right:0px ;
-        width: 16rem;
+        height: auto;
     }
     .vl img{
         margin: 0 auto;
@@ -442,6 +441,9 @@ hr{
         text-align: center;
         font-size:15px;
         padding-left: 3%;
+        padding-bottom: 5%;
+        border-bottom: 1px solid #c19663;
+
     } 
     
     .address{
@@ -577,7 +579,7 @@ hr{
 
 
 /* Small Phones */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 575px) {
     /* .grey-overlay{
         width: 100%;
         height: 100%;
@@ -672,6 +674,7 @@ hr{
     .vl{
         /* padding-left: 30%;
         padding-right: 30%; */
+        height: auto;
         margin: 0 auto;
         border-right: 0px;
         border-bottom: 1px solid #c19663;
