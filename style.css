@@ -324,7 +324,33 @@ hr{
 
     /* Small laptops */
     @media screen and (max-width: 992px){
-
+        .about h1{
+            font-weight: bold;
+            font-size: 25vw;
+            text-align: center;
+            color: #FFEEDB26;
+    
+        }
+        .about p{
+            color: white;
+            padding-left:3rem;
+            padding-right: 3rem;
+            font-weight: 300;
+            font-size: 2vh;
+            font-style: italic; 
+            text-align: center;
+            margin-top: 0px;
+        }
+        .about b{
+            font-style: normal;
+            font-weight: bolder;
+        }
+        .about img{
+            width:40%;
+            display: block;
+            margin: 0 auto 40px auto;
+            
+        }
 
     }
 
@@ -352,32 +378,7 @@ hr{
         margin-right: 4%;
         
     }
-    .about h1{
-        font-weight: bold;
-        font-size: 25vw;
-        text-align: center;
-        color: #FFEEDB26;
 
-    }
-    .about p{
-        color: white;
-        padding-left:3rem;
-        padding-right: 3rem;
-        font-weight: 300;
-        font-size: 2vh;
-        font-style: italic; 
-        text-align: center;
-    }
-    .about b{
-        font-style: normal;
-        font-weight: bolder;
-    }
-    .about img{
-        width:40%;
-        display: block;
-        margin: 0 auto 40px auto;
-        
-    }
     .footerstyle{
         color: #707070;
         background-color:#0f0d0e;
@@ -544,7 +545,10 @@ hr{
         padding-bottom:5%;
         font-size: 0.7rem;
     }
-    
+    .about{
+        margin-top: 0px;
+    }
+   
  
   }
 
@@ -600,6 +604,7 @@ hr{
         font-size: 2vh;
         font-style: italic; 
         text-align: center;
+        margin-top: 0px;
     }
     .about b{
         font-style: normal;
