@@ -363,6 +363,9 @@ hr{
 /* Large Phones */
   @media screen and (max-width: 768px){
 
+    .about img{
+        width:60%;
+    }
     .carousel-resp{
         opacity: 0.5;
         filter: alpha(opacity=50);
