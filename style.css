@@ -469,7 +469,7 @@ hr{
     }
 
     .car-overlay h1{
-        /* font-weight: bld; */
+        font-weight: lighter;
         font-size: 4.5vh;
         text-align: center;
     }
@@ -717,7 +717,7 @@ hr{
     }
 
     .car-overlay h1{
-        /* font-weight: bld; */
+        font-weight: lighter;
         font-size: 4.5vh;
     }
     .car-overlay p{
