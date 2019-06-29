@@ -8,8 +8,10 @@
     <meta name="description" content="AuO2 Audio Studio"> 
     <meta name="keywords" content="MUSIC,music,Songs,recording,studio,Trivandrum,studio,AUDIO STUDIOS,au02,AuO2 studios">
     <?php wp_head();?>
+
 </head>
 <!-- <header> -->
+<body>
 <nav class="navbar navbar-expand-lg sticky-top  ">
     <button class="navbar-toggler custom-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
         aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">

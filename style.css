@@ -9,9 +9,9 @@ Version: 1.0
 /* html{
     height:100%;
 } */
-html {
+/* html {
     scroll-behavior: smooth;
-  }
+  } */
 body{
     /* width: 100%; */
     font-family: 'Montserrat';
