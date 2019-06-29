@@ -253,6 +253,8 @@ hr{
 .car-overlay h1{
     font-weight: 400;
     font-size: 4.5vh;
+    word-wrap: break-word;
+    max-width: 400px;
 }
 .car-overlay p{
     font-size: 2.2vh;
@@ -476,6 +478,8 @@ ol.carousel-indicators {
         font-weight: lighter;
         font-size: 4.5vh;
         text-align: center;
+        word-wrap: break-word;
+        max-width: 200px;    
     }
     .car-overlay p{
         font-size: 2.2vh;
@@ -723,6 +727,8 @@ ol.carousel-indicators {
     .car-overlay h1{
         font-weight: lighter;
         font-size: 4.5vh;
+        word-wrap: break-word;
+        max-width: 400px;
     }
     .car-overlay p{
         font-size: 2.2vh;
