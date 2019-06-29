@@ -251,11 +251,12 @@ hr{
     text-align: left !important;
 }
 .car-overlay h1{
-    font-weight: bold;
+    font-weight: 400;
     font-size: 4.5vh;
 }
 .car-overlay p{
     font-size: 2.2vh;
+    font-weight: 500;
 }
 .car-overlay a{
     font-size: 2vh;

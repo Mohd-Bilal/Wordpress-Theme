@@ -4,7 +4,7 @@
 
 function alpha_setup(){
     //stylesheets
-    wp_enqueue_style('google-fonts',"https://fonts.googleapis.com/css?family=Montserrat:300,300i,500,500i,600&display=swap");
+    wp_enqueue_style('google-fonts',"https://fonts.googleapis.com/css?family=Montserrat:300,300i,400,500,500i,600&display=swap");
     wp_enqueue_style('boostrap-css',"https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css");
     wp_enqueue_style('font-awesome',"https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
     wp_enqueue_style('style', get_stylesheet_uri(), NULL, "1.0",'all');
