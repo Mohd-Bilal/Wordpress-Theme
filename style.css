@@ -9,6 +9,9 @@ Version: 1.0
 /* html{
     height:100%;
 } */
+html {
+    scroll-behavior: smooth;
+  }
 body{
     /* width: 100%; */
     font-family: 'Montserrat';
@@ -237,90 +240,90 @@ hr{
     margin-top: 20%;
     margin-left: 20%;
 }
-    .learn-more{
-        display: none;
-    }
-    .learn{
-        color: white;
-    }
-    .car-overlay{
-        top:15vw;
-        text-align: left !important;
-    }
-    .car-overlay h1{
-        font-weight: bold;
-        font-size: 4.5vh;
-    }
-    .car-overlay p{
-        font-size: 2.2vh;
-    }
-    .car-overlay a{
-        font-size: 2vh;
-        color:rgb(160, 140, 140);
-    }
-    .car-overlay a:hover{
-        font-size: 2vh;
-        color:#c19663;;
-        text-decoration: none;
-    }
-    ol.carousel-indicators {
-        position: absolute;
-        bottom: 10px;
-        margin: 0;
-        
-        left: 0;
-        right: 0;
-        width: auto;
-     }
-     
+.learn-more{
+    display: none;
+}
+.learn{
+    color: white;
+}
+.car-overlay{
+    top:15vw;
+    text-align: left !important;
+}
+.car-overlay h1{
+    font-weight: bold;
+    font-size: 4.5vh;
+}
+.car-overlay p{
+    font-size: 2.2vh;
+}
+.car-overlay a{
+    font-size: 2vh;
+    color:rgb(160, 140, 140);
+}
+.car-overlay a:hover{
+    font-size: 2vh;
+    color:#c19663;;
+    text-decoration: none;
+}
+ol.carousel-indicators {
+    position: absolute;
+    bottom: 10px;
+    margin: 0;
     
-     ol.carousel-indicators li,
-     ol.carousel-indicators li.active {
-        width: .7rem;
-        height: .7rem;
-        margin: .5rem;
-        border-radius: 50%;
-        border: 1px solid #c19663;
-     }
-     
-     ol.carousel-indicators li {
-        background: transparent;
-     }
-     
-     ol.carousel-indicators li.active {
-        background: #c19663;
-     }
-    .navbar{
-        background-color: #000000;
-        border-bottom: 1px solid  #c19663;
+    left: 0;
+    right: 0;
+    width: auto;
     }
-    .vl{
-        border-right: 2px solid #c19663;
-        height: 16rem;
-    }
-    .vl img{
-        padding-top: 50%;
-        vertical-align: middle;
-        margin: 0 auto
-        /* padding-bottom: 30%; */
-    }
-    .vl p{
-        size:15px;
-    }
+    
 
-    .address{
-        padding-left: 3%;
-        padding-right: 3%;
-        padding-top: 2%;
+    ol.carousel-indicators li,
+    ol.carousel-indicators li.active {
+    width: .7rem;
+    height: .7rem;
+    margin: .5rem;
+    border-radius: 50%;
+    border: 1px solid #c19663;
     }
-    .address h5{
-        color:white;
-        opacity: 0.84;
+    
+    ol.carousel-indicators li {
+    background: transparent;
     }
-    .address p{
-        padding-top: 4%;
-        font-size: 18px;
+    
+    ol.carousel-indicators li.active {
+    background: #c19663;
     }
+.navbar{
+    background-color: #000000;
+    border-bottom: 1px solid  #c19663;
+}
+.vl{
+    border-right: 2px solid #c19663;
+    height: 16rem;
+}
+.vl img{
+    padding-top: 50%;
+    vertical-align: middle;
+    margin: 0 auto
+    /* padding-bottom: 30%; */
+}
+.vl p{
+    size:15px;
+}
+
+.address{
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-top: 2%;
+}
+.address h5{
+    color:white;
+    opacity: 0.84;
+}
+.address p{
+    padding-top: 4%;
+    font-size: 18px;
+}
 
     @media screen and (max-width: 1200px){
         .about p{

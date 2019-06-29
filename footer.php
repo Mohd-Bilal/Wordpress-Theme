@@ -8,7 +8,6 @@
             <li><a href="#gear">GEAR</a></li>
             <li><a href="#">BLOG</a></li>
             <li><a href="#">FILMOGRAPHY</a></li>
-            <li><a href="#" style="color:#c19663">BOOK NOW</a></li>
         </ul>
     </div>
     <div class="col-md-2 col-sm-12 col-xm-12 vl ">

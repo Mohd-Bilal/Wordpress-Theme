@@ -19,16 +19,8 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarText">
         <ul class="navbar-nav mr-auto  ">
-            <li class="nav-item ">
-                  <div class="d-flex  align-items-center nav-link">
-                    <button class="btn button">BOOK NOW</button>
-                  </div>
-            </li>
             <li class="nav-item active">
                 <a class="nav-link" href="#about">ABOUT <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">PHILOSOPHY</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="#facility">FACILITY</a>
