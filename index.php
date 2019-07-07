@@ -59,4 +59,5 @@
 <?php include("about.php"); ?>
 <?php include("facility.php") ?>
 <?php include("gear.php"); ?>
+<?php include("blog.php"); ?>
 <?php get_footer() ?>
