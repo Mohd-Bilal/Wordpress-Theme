@@ -199,10 +199,9 @@ hr{
   }
 
 .facility_carousel_image{
-    width: 100%;
+    width: 80%;
     border-radius:50%; 
-    margin-left: 7%;  
-    margin-bottom: 4%;
+    margin:auto;
 }
 .facility_carousel{
     width: 100%;
@@ -357,6 +356,22 @@ ol.carousel-indicators {
 .address p{
     padding-top: 4%;
     font-size: 18px;
+}
+.card{
+    border: .5px solid #c1966320 ;
+    background-color: #0f0d0e;
+}
+.card-img-top{
+    background-color: transparent;
+}
+.card-title{
+    text-align: center;
+    color: white;
+}
+.card-body{
+    background-color: #0f0d0e;
+    color: white;
+    text-align: justify;
 }
 
     @media screen and (max-width: 1200px){
