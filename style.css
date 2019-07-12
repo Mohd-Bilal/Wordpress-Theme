@@ -21,6 +21,10 @@ body{
 a{
     outline: none;
 }
+.gallery_item{
+    padding-left: 1%;
+    padding-right: 1%;
+}
 .blog_post_title{
     text-align:center;
     font-size:5rem;
@@ -51,6 +55,17 @@ a{
 }
 .blog_card_link{
     color: #c19663;
+}
+
+.gallery_title{
+    text-align:center;
+    font-size:5rem;
+    color: #FFEEDB;
+    padding-bottom: 1%;
+    padding-top: 3%;
+}
+.gallery_description{
+    font-size: 3vh;
 }
 .navbar-nav li a {
     font-weight: bold;

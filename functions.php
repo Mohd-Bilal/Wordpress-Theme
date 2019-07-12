@@ -8,12 +8,15 @@ function alpha_setup(){
     wp_enqueue_style('boostrap-css',"https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css");
     wp_enqueue_style('font-awesome',"https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
     wp_enqueue_style('style', get_stylesheet_uri(), NULL, "1.0",'all');
+    wp_enqueue_style('owl-carousel-min-css',get_template_directory_uri().'/owlcarousel/owl.carousel.min.css',NULL,"1.0",'all');
+    wp_enqueue_style('owl-carousel-css',get_template_directory_uri().'/owlcarousel/owl.theme.default.min.css',NULL,"1.0",'all');
 
      //javascript
     wp_enqueue_script('jquery', "https://code.jquery.com/jquery-3.3.1.slim.min.js");
     wp_enqueue_script('popper', "https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js");
     wp_enqueue_script('boostrap-js', "https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js");
     wp_enqueue_script('main', get_theme_file_uri('js/main.js'), NULL, "1.0", true);
+    wp_enqueue_script('owl.carousel',get_template_directory_uri().'/owlcarousel/owl.carousel.min.js');
 
 }
 
@@ -151,4 +154,26 @@ function headphones(){
 
 
 add_action('init','headphones');
+
+function gallery_carousel_item(){
+    register_post_type('gallery',
+    array(
+        'rewrite' => array('slug'=>'gallery'),
+        'labels' => array(
+            'name' => 'Gallery',
+            'singular_name' => 'Gallery',
+            'add_new_item' => 'Add Image',
+            'edit_item' => 'Edit Image'
+        ),
+        'menu-icon' => 'dashicons-format-image',
+        'public' => true,
+        'has_archive' => true,
+        'supports' => array(
+            'title','thumbnail'
+        ) 
+    ));
+}
+
+
+add_action('init','gallery_carousel_item');
 
