@@ -3,7 +3,5 @@ jQuery(document).ready(function(){
   	loop:true,
   	stagePadding:50,
   	items:2,
-  	nav:true,
-  	navText: ["<img src='myprevimage.png'>","<img src='mynextimage.png'>"]
   });
 });
