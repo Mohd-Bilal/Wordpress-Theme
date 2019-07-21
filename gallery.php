@@ -1,7 +1,5 @@
+<h2 class="facility-head" id="facility">Gallery</h2>
 <div class="container">
-	<div class="row">
-		<h2 class="gallery_title">Gallery</h2>
-	</div>
 	<div class="row">
 		<p class="gallery_description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</p>
 	</div>	

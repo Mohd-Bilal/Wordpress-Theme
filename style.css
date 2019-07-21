@@ -20,6 +20,7 @@ body{
 }
 a{
     outline: none;
+    text-decoration: none;
 }
 .gallery_item{
     padding-left: 1%;
@@ -56,6 +57,9 @@ a{
 .blog_card_link{
     color: #c19663;
 }
+.blog_card_link:hover{
+    color: #ebbf8b;
+}
 
 .gallery_title{
     text-align:center;
@@ -66,6 +70,8 @@ a{
 }
 .gallery_description{
     font-size: 3vh;
+    color: #FFEEDB;
+    text-align:center;
 }
 .navbar-nav li a {
     font-weight: bold;
@@ -373,8 +379,8 @@ ol.carousel-indicators {
     font-size: 18px;
 }
 .card{
-    border: .5px solid #c1966320 ;
-    background-color: #0f0d0e;
+    /* border: .5px solid #c1966320 ; */
+    background-color: transparent;
 }
 .card-img-top{
     background-color: transparent;
@@ -384,9 +390,9 @@ ol.carousel-indicators {
     color: white;
 }
 .card-body{
-    background-color: #0f0d0e;
+    background-color: transparent;
     color: white;
-    text-align: justify;
+    text-align: center;
 }
 
     @media screen and (max-width: 1200px){
@@ -582,9 +588,9 @@ ol.carousel-indicators {
         background: #c19663;;
      }
      .facility_carousel_image{
-        width: 80%;
+        width: 40%;
         border-radius:50%; 
-        margin-left: 10%;  
+        margin: auto;
         margin-bottom: 4%;
     }
     .facility_carousel{
@@ -612,7 +618,7 @@ ol.carousel-indicators {
     .facility-head{
         color:#FFEEDB;
         text-align:center;
-        font-size:2.5rem;
+        font-size:4rem;
         padding: 5%;
     }
     
@@ -830,9 +836,9 @@ ol.carousel-indicators {
         background: #c19663;;
      }
      .facility_carousel_image{
-        width: 80%;
-        border-radius:50%; 
-        margin-left: 10%;  
+        width: 40%;
+        border-radius:50%;
+        margin:auto;   
         margin-bottom: 4%;
     }
     .facility_carousel{
@@ -860,7 +866,7 @@ ol.carousel-indicators {
     .facility-head{
         color:#FFEEDB;
         text-align:center;
-        font-size:2.5rem;
+        font-size:2.8rem;
         padding: 5%;
     }
     

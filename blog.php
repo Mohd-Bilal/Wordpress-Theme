@@ -1,7 +1,7 @@
 <div class="container">
 <div class="row">
 <div class="col-md-12">
-<h2 class="blog_post_title" style="text-align: center;"id="facility">Blog</h2>
+<h2 class="facility-head" style="text-align: center;"id="facility">Blog</h2>
 <p class="blog_description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
 </div>
 </div>
