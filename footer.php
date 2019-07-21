@@ -6,7 +6,7 @@
             <li><a href="#about">ABOUT</a></li>
             <li><a href="#facility">FACILITY</a></li>
             <li><a href="#gear">GEAR</a></li>
-            <li><a href="#">BLOG</a></li>
+            <li><a href="#blog">BLOG</a></li>
             <li><a href="#">FILMOGRAPHY</a></li>
         </ul>
     </div>

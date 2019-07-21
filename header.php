@@ -31,7 +31,7 @@
                 <a class="nav-link" href="#gear">GEAR</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">BLOG</a>
+                <a class="nav-link" href="#blog">BLOG</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="#">FILMOGRAPHY</a>

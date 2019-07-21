@@ -1,4 +1,4 @@
-<div class="container">
+<div class="container" id="blog">
 <div class="row">
 <div class="col-md-12">
 <h2 class="facility-head" style="text-align: center;"id="facility">Blog</h2>
