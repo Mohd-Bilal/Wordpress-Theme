@@ -66,8 +66,8 @@ function facility_carousel_items(){
     array(
         'rewrite' => array('slug'=>'facility_carousel_items'),
         'labels' => array(
-            'name' => 'Facility Carousel Items',
-            'singular_name' => 'Facility Carousel Item',
+            'name' => 'Facility Card Items',
+            'singular_name' => 'Facility Card Item',
             'add_new_item' => 'Add New Facility',
             'edit_item' => 'Edit Facility'
         ),
@@ -140,7 +140,7 @@ function headphones(){
         'labels' => array(
             'name' => 'Headphones',
             'singular_name' => 'Headphone',
-            'add_new_item' => 'Add Headphone',
+            'add_new_item' => 'Add New Headphone',
             'edit_item' => 'Edit Headphone'
         ),
         'menu-icon' => 'dashicons-format-image',
@@ -162,7 +162,7 @@ function gallery_carousel_item(){
         'labels' => array(
             'name' => 'Gallery',
             'singular_name' => 'Gallery',
-            'add_new_item' => 'Add Image',
+            'add_new_item' => 'Add New Image',
             'edit_item' => 'Edit Image'
         ),
         'menu-icon' => 'dashicons-format-image',
