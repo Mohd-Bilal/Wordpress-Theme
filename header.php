@@ -5,6 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="theme-color" content="#000000" />
+    <meta name="msapplication-navbutton-color" content="#000000">
+    <meta name="apple-mobile-web-app-status-bar-style" content="#000000">
     <meta name="description" content="AuO2 Audio Studio"> 
     <meta name="keywords" content="MUSIC,music,Songs,recording,studio,Trivandrum,studio,AUDIO STUDIOS,au02,AuO2 studios,Sreejesh Nair">
     <?php wp_head();?>
@@ -12,14 +15,20 @@
 </head>
 <!-- <header> -->
 <body>
-<nav class="navbar navbar-expand-lg sticky-top  ">
+<div class="navbar-wrapper"  >
+<nav class="navbar navbar-expand-lg navbar-right sticky-top  " >
+
     <button class="navbar-toggler custom-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
-        aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+        aria-controls="navbarText" aria-expanded="true" aria-label="Toggle navigation">
 
         <span class="navbar-toggler-icon"></span>
 
     </button>
-    <div class="collapse navbar-collapse" id="navbarText">
+    <!-- <a href="#" class="navbar-brand order-md-last " >BSB Feedback</a> -->
+    
+    <img class="studio-logo navbar-brand order-md-last" src=<?php echo get_template_directory_uri().'/images/Image2.png'?> >
+    
+    <div class="navbar-collapse navbar-left collapse"  id="navbarText" style="margin-bottom:40vh;">
         <ul class="navbar-nav mr-auto  ">
             <li class="nav-item active">
                 <a class="nav-link" href="#about">ABOUT <span class="sr-only">(current)</span></a>
@@ -39,8 +48,7 @@
         </ul>
 
     </div>
-    <img class="studio-logo" src=<?php echo get_template_directory_uri().'/images/Image2.png'?> >
-
 </nav>
+</div>
 
 <!-- </header> -->

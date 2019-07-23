@@ -20,7 +20,7 @@
     </div> -->
 
     <div class="col-md-4 d-flex align-items-stretch">
-        <div class="card mb-3">
+        <div class="card facilty_card mb-3">
             <img class="card-img-top facility_carousel_image" src="<?php echo get_the_post_thumbnail_url(get_the_ID(),'full'); ?>"
                 alt="Card image cap">
             <div class="card-body">

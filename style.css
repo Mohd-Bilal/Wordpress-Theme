@@ -6,9 +6,9 @@ Description: Alpha design wordpress theme
 Version: 1.0
 */
 
-/* html{
+html{
     height:100%;
-} */
+}
 /* html {
     scroll-behavior: smooth;
   } */
@@ -26,33 +26,21 @@ a{
     padding-left: 1%;
     padding-right: 1%;
 }
-.blog_post_title{
-    text-align:center;
-    font-size:5rem;
-    color: #FFEEDB;
-    padding-bottom: 3%;
-    padding-top: 3%;
-}
+
 .blog_description{
-    padding-bottom: 3%;
+    /* padding-bottom: 3%; */
     text-align: center;
     color: white;
 }
 .blog_card{
     background-color: #FFEEDB26;
-    height: 350px;
-}
-.blog_card_body{
-    margin: auto;
-    padding: 15% 15% 0 15%;
-    padding-bottom: 20%;
-}
+}  
 .blog_card_title{
     color:white;
     margin-bottom: 5%;
     font-size: 1.75rem;
     word-wrap: break-word;
-    /*width: 250px;*/
+    /* width: 250px; */
 }
 .blog_card_link{
     color: #c19663;
@@ -73,6 +61,12 @@ a{
     color: #FFEEDB;
     text-align:center;
 }
+.navbar-wrapper {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+  }
 .navbar-nav li a {
     font-weight: bold;
     font-size: 2vh;
@@ -125,10 +119,10 @@ a{
 }
 
 .studio-logo{
-    height: 2.2rem;
+    height: 2.6rem;
     width: auto;
     float: right;
-    margin-right: 4%;
+    /* margin-right: 4%; */
     
 }
 .footerstyle{
@@ -378,19 +372,15 @@ ol.carousel-indicators {
     padding-top: 4%;
     font-size: 18px;
 }
-.card{
+.facilty_card{
     /* border: .5px solid #c1966320 ; */
-    background-color: transparent;
-}
-.card-img-top{
-    background-color: transparent;
+    background-color: #FFEEDB26;
 }
 .card-title{
     text-align: center;
     color: white;
 }
 .card-body{
-    background-color: transparent;
     color: white;
     text-align: center;
 }
@@ -454,7 +444,7 @@ ol.carousel-indicators {
         border-bottom: 0px;
     }
     .studio-logo{
-        height: 1.5rem;
+        height: 1.9rem;
         width: auto;
         float: right;
         margin-right: 4%;
@@ -637,6 +627,10 @@ ol.carousel-indicators {
         padding-bottom:5%;
         font-size: 0.7rem;
     }
+    .facilty_card{
+        /* border: .5px solid #c1966320 ; */
+        background-color: transparent;
+    }
     .about{
         margin-top: 0px;
     }
@@ -678,7 +672,7 @@ ol.carousel-indicators {
         border-bottom: 0px ;
     }
     .studio-logo{
-        height: 1.5rem;
+        height: 1.9rem;
         width: auto;
         float: right;
         margin-right: 4%;
@@ -884,6 +878,10 @@ ol.carousel-indicators {
         padding-top: 5%;
         padding-bottom:5%;
         font-size: 0.7rem;
+    }
+    .facilty_card{
+        /* border: .5px solid #c1966320 ; */
+        background-color: transparent;
     }
     
  
