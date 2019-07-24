@@ -1,8 +1,10 @@
 <h2 class="facility-head" id="facility">Gallery</h2>
 <div class="container">
 	<div class="row">
-		<p class="gallery_description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</p>
-	</div>	
+        <div class="col-md-12">
+		<p class="blog_description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</p>
+        </div>
+    </div>	
 	
 </div>
 
