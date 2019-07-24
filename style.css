@@ -119,9 +119,9 @@ a{
 }
 
 .studio-logo{
-    height: 2.6rem;
+    height: 2rem;
     width: auto;
-    float: right;
+    /* float: right; */
     /* margin-right: 4%; */
     
 }
@@ -419,6 +419,10 @@ ol.carousel-indicators {
             margin: 0 auto 40px auto;
             
         }
+        .order-md-last {
+            -ms-flex-order: 0;
+            order: 0;
+        }   
 
     }
 
@@ -446,11 +450,10 @@ ol.carousel-indicators {
     .studio-logo{
         height: 1.9rem;
         width: auto;
-        float: right;
-        margin-right: 4%;
+        /* float: right;
+        margin-right: 4%; */
         
     }
-
     .footerstyle{
         color: #707070;
         background-color:#0f0d0e;
@@ -674,8 +677,8 @@ ol.carousel-indicators {
     .studio-logo{
         height: 1.9rem;
         width: auto;
-        float: right;
-        margin-right: 4%;
+        /* float: right;
+        margin-right: 4%; */
         
     }
     .about h1{
