@@ -1,4 +1,5 @@
 <hr>
+<div class="container">
 <h2 class="facility-head" id="facility">Facility</h2>
 
 <div class="row card-deck" style="margin:0px;padding:0px">
@@ -20,7 +21,7 @@
     </div> -->
 
     <div class="col-md-4 d-flex align-items-stretch">
-        <div class="card facilty_card mb-3">
+        <div class="card facilty_card " style="margin-left:0px;margin-right:0px">
             <img class="card-img-top facility_carousel_image" src="<?php echo get_the_post_thumbnail_url(get_the_ID(),'full'); ?>"
                 alt="Card image cap">
             <div class="card-body">
@@ -45,3 +46,5 @@
 </div>
 <p class="facility_vip">In addition to this,AuO2 Studio also has a private VIP lounge for the discussions or rest you
     might want to have in between that creative action along with high speed internet access</p>
+
+</div>
