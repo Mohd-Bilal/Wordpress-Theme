@@ -2,6 +2,14 @@ jQuery(document).ready(function(){
   jQuery(".owl-carousel").owlCarousel({
   	loop:true,
   	stagePadding:50,
-  	items:2,
+	responsiveClass:true,
+	responsive:{
+		0:{
+            items:1,
+		},
+		1200:{
+			items:2,
+		}
+	}
   });
 });
