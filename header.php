@@ -18,7 +18,7 @@
 <div class="navbar-wrapper"  >
 <nav class="navbar navbar-expand-lg navbar-right sticky-top  " >
 
-    <button class="navbar-toggler custom-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
+    <button class="navbar-toggler custom-toggler" type="button" data-toggle="modal" data-target="#nav-modal"
         aria-controls="navbarText" aria-expanded="true" aria-label="Toggle navigation">
 
         <span class="navbar-toggler-icon"></span>
@@ -52,3 +52,31 @@
 </div>
 
 <!-- </header> -->
+
+<!-- Modal -->
+<div class="modal fade modal-black" id="nav-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-nav-content">
+   
+    <div class="modal-nav-body">
+      <ul class="navbar-nav mr-auto  ">
+            <li class="nav-item active">
+                <a class="nav-link" href="#about">ABOUT <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#facility">FACILITY</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#gear">GEAR</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#blog">BLOG</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">FILMOGRAPHY</a>
+            </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
