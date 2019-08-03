@@ -18,10 +18,12 @@
 <div class="navbar-wrapper"  >
 <nav class="navbar navbar-expand-lg navbar-right sticky-top  " >
 
-    <button class="navbar-toggler custom-toggler" type="button" data-toggle="modal" data-target="#nav-modal"
+    <button id="nav-icon4" style="position:relative;z-index:100" class="navbar-toggler custom-toggler" type="button" data-toggle="modal" data-target="#nav-modal"
         aria-controls="navbarText" aria-expanded="true" aria-label="Toggle navigation">
 
-        <span class="navbar-toggler-icon"></span>
+        <span></span>
+        <span></span>
+        <span></span>
 
     </button>
     <!-- <a href="#" class="navbar-brand order-md-last " >BSB Feedback</a> -->
@@ -54,10 +56,9 @@
 <!-- </header> -->
 
 <!-- Modal -->
-<div class="modal fade modal-black" id="nav-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+<div style="z-index:99" class="modal fade modal-black" id="nav-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
   <div class="modal-dialog" role="document">
     <div class="modal-nav-content">
-   
     <div class="modal-nav-body">
       <ul class="navbar-nav mr-auto  ">
             <li class="nav-item active">

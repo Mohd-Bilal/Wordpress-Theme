@@ -52,6 +52,9 @@ $jq(document).ready(function(){
       });
     }  // End if
   });
+	$jq('#nav-icon4').click(function(){
+		$jq(this).toggleClass('open');
+	});
 });
 </script>
 </html>
