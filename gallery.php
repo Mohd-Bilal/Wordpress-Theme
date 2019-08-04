@@ -1,4 +1,4 @@
-<h2 class="facility-head" id="facility">Gallery</h2>
+ <h2 class="facility-head" id="facility">Gallery</h2>
 <div class="container">
 	<div class="row">
         <div class="col-md-12">

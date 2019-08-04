@@ -119,8 +119,8 @@ a{
 }
 
 .studio-logo{
-    height: 2rem;
-    width: auto;
+    height: auto;
+    width: 4rem;
     /* float: right; */
     /* margin-right: 4%; */
     
@@ -569,8 +569,8 @@ ol.carousel-indicators {
         border-bottom: 0px;
     }
     .studio-logo{
-        height: 1.9rem;
-        width: auto;
+        height: auto;
+        width: 3rem;
         /* float: right;
         margin-right: 4%; */
         
@@ -797,11 +797,15 @@ ol.carousel-indicators {
         border-bottom: 0px ;
     }
     .studio-logo{
-        height: 1.9rem;
-        width: auto;
+        height: auto;
+        width: 3rem;
         /* float: right;
         margin-right: 4%; */
         
+    }
+    .navbar-toggler:focus, .navbar-toggler:active {
+        outline: none;
+        box-shadow: none;
     }
     .about h1{
         font-weight: bold;
