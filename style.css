@@ -61,6 +61,10 @@ a{
     color: #FFEEDB;
     text-align:center;
 }
+.navbar-toggler:focus, .navbar-toggler:active {
+    outline: none;
+    box-shadow: none;
+}
 .navbar-wrapper {
     position: absolute;
     top: 0;
@@ -366,7 +370,7 @@ ol.carousel-indicators {
     cursor: pointer;
   }
   .modal-backdrop{
-    z-index: 99;
+    z-index: 98;
   }
   #nav-icon4 span {
     display: block;
@@ -802,10 +806,6 @@ ol.carousel-indicators {
         /* float: right;
         margin-right: 4%; */
         
-    }
-    .navbar-toggler:focus, .navbar-toggler:active {
-        outline: none;
-        box-shadow: none;
     }
     .about h1{
         font-weight: bold;
