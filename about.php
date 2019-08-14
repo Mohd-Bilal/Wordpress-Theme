@@ -1,5 +1,5 @@
 <div class="about container  d-flex flex-cloumn align-items-center" id="about">
-    <div class="row ">
+    <div class="row-fix ">
         <h1>About</h1>
 
         <div class="col-lg-5 col-md-5 col-sm-12 col-xm-12 container  justify-content-right ">

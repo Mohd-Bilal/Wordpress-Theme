@@ -1,5 +1,5 @@
 <div class="" id="blog">
-    <div class="row">
+    <div class="row-fix">
         <div class="col-md-12">
             <h2 class="facility-head" style="text-align: center;" id="facility">Blog</h2>
             <p class="blog_description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
@@ -23,7 +23,7 @@ if ( ! is_wp_error( $rss ) ) : // Checks that the object is created correctly
 endif;
 ?>
     <div class="container-fluid">
-        <div class="row">
+        <div class="row-fix">
             <?php if ( $maxitems == 0 ) : ?>
             <li><?php _e( 'No items', 'my-text-domain' ); ?></li>
             <?php else : ?>

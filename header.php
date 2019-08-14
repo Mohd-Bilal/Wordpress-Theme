@@ -57,7 +57,7 @@
 
 <!-- Modal -->
 <div style="z-index:99" class="modal fade modal-black" id="nav-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-  <div class="modal-dialog" role="document">
+  <div class="modal-dialog" style="pointer-events:auto;" role="document">
     <div class="modal-nav-content">
     <div class="modal-nav-body">
       <ul class="navbar-nav mr-auto  ">
