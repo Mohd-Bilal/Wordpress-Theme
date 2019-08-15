@@ -26,10 +26,10 @@
       $flag = False;
       ?>
        <img src="<?php echo get_the_post_thumbnail_url(get_the_ID(),'full'); ?>" class="d-block carousel-resp " alt="...">
-        <div class="carousel-caption  car-overlay">
-          <h1><?php the_title() ?></h1>
+        <div  class=" carousel-caption  car-overlay">
+          <h1  ><?php the_title() ?></h1>
           <br>
-          <p><?php the_excerpt() ?></p>
+          <p  ><?php the_excerpt() ?></p>
           <a class="learn" style="color:white"href="<?php the_permalink(); ?>">LEARN MORE ></a>
           <button class="learn-more " href="<?php the_permalink(); ?>">LEARN MORE</button>
 

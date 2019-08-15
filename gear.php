@@ -30,8 +30,8 @@
                                         <span aria-hidden="true">&times;</span>
                                     </button>
                                 </div>
-                                <div class="modal-body">
-                                <h1 class="modal-title" ><?php the_title() ?></h1>
+                                <div class="modal-body" style="text-align:left;">
+                                <h1 class="modal-title" style="text-align:left;" ><?php the_title() ?></h1>
                                     <p><?php the_excerpt() ?></p>
                                 </div>
                             </div>

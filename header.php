@@ -33,7 +33,7 @@ aria-controls="navbarText" aria-expanded="true" aria-label="Toggle navigation">
     <img class="studio-logo navbar-brand order-md-last" src=<?php echo get_template_directory_uri().'/images/Image2.png'?> >
     
     <div class="navbar-collapse navbar-left collapse"  id="navbarText" >
-        <ul  class="navbar-nav mr-auto  ">
+            <ul  class="navbar-nav mr-auto  ">
             <li class="nav-item active">
                 <a class="nav-link" href="#about">ABOUT <span class="sr-only">(current)</span></a>
             </li>
