@@ -25,12 +25,19 @@ const ClassName = {
  
 
 
-document.getElementById("navbarText").addEventListener("click",test);
+document.getElementById("navbarText").addEventListener("click",function (el){
+							el.preventDefault()	
+							jQuery('#nav-icon4').click()
+});
+window.addEventListener("scroll",test);
 function test(el){
 	el.preventDefault()
 	jQuery('#nav-icon4').removeClass("open");
 	jQuery('#navbarText').collapse("hide") 
+	
+	// jQuery('#nav-icon4').click()
 }
+
 
 // jQuery(document.getElementById('links')).click(function(e){
 // 	console.log("njn ivedet")

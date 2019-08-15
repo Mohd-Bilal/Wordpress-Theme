@@ -20,7 +20,7 @@
 
     <!-- <button id="nav-icon4" style="position:relative;z-index:100" class="navbar-toggler custom-toggler" type="button" data-toggle="modal" data-target="#nav-modal"
         aria-controls="navbarText" aria-expanded="true" aria-label="Toggle navigation"> -->
-        <button id="nav-icon4" class="navbar-toggler custom-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
+        <button id="nav-icon4" style="position:relative;z-index:100" class="navbar-toggler custom-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
 aria-controls="navbarText" aria-expanded="true" aria-label="Toggle navigation">
 
         <span></span>

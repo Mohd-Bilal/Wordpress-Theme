@@ -585,6 +585,7 @@ ol.carousel-indicators {
         min-height: 100%;
         padding-top: 80px;
         padding-bottom: 100%;
+
       }
     .about img{
         width:60%;
@@ -822,7 +823,7 @@ ol.carousel-indicators {
         left: 0;
         min-height: 100%;
         padding-top: 80px;
-        padding-bottom: 50%;
+        padding-bottom: 100%;
       }
     .carousel-resp{
         opacity: 0.5;
