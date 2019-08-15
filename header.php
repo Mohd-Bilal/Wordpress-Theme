@@ -31,7 +31,7 @@
     <img class="studio-logo navbar-brand order-md-last" src=<?php echo get_template_directory_uri().'/images/Image2.png'?> >
     
     <div class="navbar-collapse navbar-left collapse"  id="navbarText" >
-        <ul class="navbar-nav mr-auto  ">
+        <ul  class="navbar-nav mr-auto  ">
             <li class="nav-item active">
                 <a class="nav-link" href="#about">ABOUT <span class="sr-only">(current)</span></a>
             </li>
@@ -60,7 +60,7 @@
   <div class="modal-dialog" style="pointer-events:auto;" role="document">
     <div class="modal-nav-content">
     <div class="modal-nav-body">
-      <ul class="navbar-nav mr-auto  ">
+      <ul id="links" class="navbar-nav mr-auto  ">
             <li class="nav-item active">
                 <a class="nav-link" href="#about">ABOUT <span class="sr-only">(current)</span></a>
             </li>
