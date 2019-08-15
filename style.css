@@ -38,8 +38,10 @@ a{
     color: white;
 }
 .blog_card{
-    background-color: #FFEEDB26;
+    background-color:#4F4F4F26;
+    border-radius: 4%;
 }  
+
 .blog_card_title{
     color:white;
     margin-bottom: 5%;
@@ -197,6 +199,7 @@ hr{
 }
 .modal-body p{
     font-weight: 100;
+    padding-right:11%;
 
 }
 .modal span{
@@ -223,9 +226,11 @@ hr{
   }
 
 .facility_carousel_image{
-    width: 70%;
+    width: 65%;
     border-radius:50%; 
     margin:auto;
+    padding-top:5%;
+    padding-bottom:6%;
 }
 .facility_carousel{
     width: 100%;
@@ -249,7 +254,7 @@ hr{
 .facility-head{
     text-align:center;
     font-size:5rem;
-    padding: 5%;
+    padding: 2%;
     color: #FFEEDB;
 }
 
@@ -269,17 +274,18 @@ hr{
 
 .about{
     margin-top: 40px;
-    margin-bottom: 140px;
+    margin-bottom: 170px;
 }
 
 .about h1{
     font-weight: bold;
-    font-size: 25vh;
+    font-size: 8rem;
     color: #FFEEDB26
 }
 .about p{
     color: white;
     padding-left:9vw;
+    padding-right:5vw;
     font-weight: 300;
     font-size: 2.1vh;
     font-style: italic; 
@@ -306,7 +312,7 @@ hr{
 }
 .car-overlay h1{
     font-weight: 400;
-    font-size: 4.5vh;
+    font-size: 2rem;
     word-wrap: break-word;
     max-width: 400px;
 }
@@ -472,7 +478,7 @@ ol.carousel-indicators {
 }
 .facilty_card{
     /* border: .5px solid #c1966320 ; */
-    background-color: #FFEEDB26;
+    background-color: #000000;
 }
 .card-title{
     text-align: center;
@@ -513,6 +519,11 @@ ol.carousel-indicators {
   }
   .modal-black{
       background-color: rgba(0,0,0,0.7);
+  }
+  .in-middle{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
   }
 
     @media screen and (max-width: 1200px){
@@ -666,7 +677,7 @@ ol.carousel-indicators {
 
     .car-overlay h1{
         font-weight: lighter;
-        font-size: 4.5vh;
+        font-size: 2rem;
         text-align: center;
         word-wrap: break-word;
         max-width: 200px;    
@@ -921,7 +932,7 @@ ol.carousel-indicators {
 
     .car-overlay h1{
         font-weight: lighter;
-        font-size: 4.5vh;
+        font-size: 2rem;
         word-wrap: break-word;
         max-width: 400px;
     }
