@@ -25,24 +25,24 @@ const ClassName = {
  
 
 
-document.getElementById("nav-link").addEventListener("click",test);
+document.getElementById("navbarText").addEventListener("click",test);
 function test(el){
-	console.log(el)
-	// var el = document.getElementById("nav-modal")
-	// el.style.display = 'none'
-    // el.setAttribute('aria-hidden', true)
-	// el.removeAttribute('aria-modal')
-	// jQuery(document.body).removeClass(ClassName.OPEN)
-	// jQuery('.modal-backdrop').remove();
-	jQuery("#nav-modal").modal("hide");
-
-	// jQuery(el).trigger('hidden.bs.modal')
-
+	el.preventDefault()
 	jQuery('#nav-icon4').removeClass("open");
+	jQuery('#navbarText').collapse("hide") 
 }
-jQuery("#nav-icon4").on("click",function(){
-	var el = document.getElementById("nav-modal")
-	jQuery("#nav-modal").show();
-	el.style.display = 'block'
 
-});
+// jQuery(document.getElementById('links')).click(function(e){
+// 	console.log("njn ivedet")
+// 	e.preventDefault()
+// 	jQuery("#nav-modal").modal("hide");
+// 	jQuery('#nav-icon4').removeClass("open");
+// 	window.location.href = 'www.google.com'
+// })
+
+// jQuery("#nav-icon4").on("click",function(){
+// 	var el = document.getElementById("nav-modal")
+// 	jQuery("#nav-modal").show();
+// 	el.style.display = 'block'
+
+// });
