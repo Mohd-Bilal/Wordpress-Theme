@@ -18,8 +18,10 @@
 <div class="navbar-wrapper"  >
 <nav class="navbar navbar-expand-lg navbar-right sticky-top  " >
 
-    <button id="nav-icon4" style="position:relative;z-index:100" class="navbar-toggler custom-toggler" type="button" data-toggle="modal" data-target="#nav-modal"
-        aria-controls="navbarText" aria-expanded="true" aria-label="Toggle navigation">
+    <!-- <button id="nav-icon4" style="position:relative;z-index:100" class="navbar-toggler custom-toggler" type="button" data-toggle="modal" data-target="#nav-modal"
+        aria-controls="navbarText" aria-expanded="true" aria-label="Toggle navigation"> -->
+        <button id="nav-icon4" class="navbar-toggler custom-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
+aria-controls="navbarText" aria-expanded="true" aria-label="Toggle navigation">
 
         <span></span>
         <span></span>
@@ -62,19 +64,19 @@
     <div class="modal-nav-body">
       <ul id="links" class="navbar-nav mr-auto  ">
             <li class="nav-item active">
-                <a class="nav-link" href="#about">ABOUT <span class="sr-only">(current)</span></a>
+                <a class="nav-link" id="nav-link" href="#about">ABOUT <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#facility">FACILITY</a>
+                <a class="nav-link" id="nav-link" href="#facility">FACILITY</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#gear">GEAR</a>
+                <a class="nav-link" id="nav-link" href="#gear">GEAR</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#blog">BLOG</a>
+                <a class="nav-link" id="nav-link" href="#blog">BLOG</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">FILMOGRAPHY</a>
+                <a class="nav-link" id="nav-link" href="#">FILMOGRAPHY</a>
             </li>
         </ul>
       </div>
