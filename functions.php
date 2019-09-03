@@ -177,3 +177,22 @@ function gallery_carousel_item(){
 
 add_action('init','gallery_carousel_item');
 
+function team_carousel_items(){
+    register_post_type('team',
+    array(
+        'rewrite' => array('slug'=>'team_carousel_items'),
+        'labels' => array(
+            'name' => 'Team Carousel Items',
+            'singular_name' => 'Team Carousel Item',
+            'add_new_item' => 'Add New Team Member',
+            'edit_item' => 'Edit Team'
+        ),
+        'menu-icon' => 'dashicons-format-image',
+        'public' => true,
+        'has_archive' => true,
+        'supports' => array(
+            'title','thumbnail','editor'
+        ) 
+    ));
+}
+add_action('init','team_carousel_items'); 

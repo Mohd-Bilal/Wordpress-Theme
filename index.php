@@ -60,5 +60,7 @@
 <?php include("facility.php") ?>
 <?php include("gear.php"); ?>
 <?php include("gallery.php"); ?>
+<?php include("team.php"); ?>
 <?php include("blog.php"); ?>
+
 <?php get_footer() ?>
