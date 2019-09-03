@@ -196,3 +196,23 @@ function team_carousel_items(){
     ));
 }
 add_action('init','team_carousel_items'); 
+
+function filmography_items(){
+    register_post_type('Films',
+    array(
+        'rewrite' => array('slug'=>'filmography_items'),
+        'labels' => array(
+            'name' => 'Films',
+            'singular_name' => 'Film',
+            'add_new_item' => 'Add New Film',
+            'edit_item' => 'Edit Film'
+        ),
+        'menu-icon' => 'dashicons-format-image',
+        'public' => true,
+        'has_archive' => true,
+        'supports' => array(
+            'title','thumbnail','editor'
+        ) 
+    ));
+}
+add_action('init','filmography_items'); 

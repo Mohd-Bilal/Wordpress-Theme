@@ -571,6 +571,11 @@ ol.carousel-indicators {
     font-size:3rem;
 }
 
+.filmography{
+    margin-top: 12vh;
+    color: white;
+}
+
     @media screen and (max-width: 1200px){
         .about p{
             margin-top: 0px;
