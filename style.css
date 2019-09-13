@@ -575,6 +575,30 @@ ol.carousel-indicators {
     margin-top: 12vh;
     color: white;
 }
+.films{
+    text-align: center
+}
+.films a{
+    text-decoration-color: #c19663;
+    color: #c19663
+}
+.film-circle {
+    width: 50%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 200px auto;
+  }
+  .film-circle:before {
+    border-radius: 50%;
+    width: 100%;
+    padding-bottom: 100%;
+    background: #c1966375;
+    content: "";
+    position: absolute;
+    z-index: -1;
+  }
 
     @media screen and (max-width: 1200px){
         .about p{
