@@ -250,6 +250,14 @@ function wpt_add_film_metaboxes() {
 		'films',
 		'normal',
 		'default'
+    );
+    add_meta_box(
+		'wpt_films_ongoing',
+		'Film Ongoing',
+		'wpt_films_ongoing',
+		'films',
+		'normal',
+		'default'
 	);
 }
 /**
@@ -274,6 +282,21 @@ function wpt_films_date() {
 	// Output the field
 	echo '<input type="text" name="date" value="' . esc_textarea( $link )  . '" class="widefat">';
 }
+function wpt_films_ongoing() {
+	global $post;
+	// Nonce field to validate form request came from current site
+	wp_nonce_field( basename( __FILE__ ), 'film_fields' );
+	// Get the link data if it's already been entered
+	$link = get_post_meta( $post->ID, 'ongoing', true );
+	// Output the field
+    $html = '<select  name="ongoing" class="widefat"><option value="yes"';
+    if($link == "yes"){
+        $html = $html.'selected>Yes</option><option value="no">No</option></select>';
+    }else{
+        $html = $html.'>Yes</option><option value="no" selected>No</option></select>';
+    }
+    echo $html;
+}
 /**
  * Save the metabox data
  */
@@ -289,11 +312,15 @@ function wpt_save_films_meta( $post_id, $post ) {
     }
     if ( ! isset( $_POST['link'] ) || ! wp_verify_nonce( $_POST['film_fields'], basename(__FILE__) ) ) {
 		return $post_id;
+    }
+    if ( ! isset( $_POST['ongoing'] ) || ! wp_verify_nonce( $_POST['film_fields'], basename(__FILE__) ) ) {
+		return $post_id;
 	}
 	// Now that we're authenticated, time to save the data.
 	// This sanitizes the data from the field and saves it into an array $films_meta.
     $films_meta['date'] = esc_textarea( $_POST['date'] );
     $films_meta['link'] = esc_textarea( $_POST['link'] );
+    $films_meta['ongoing'] = esc_textarea($_POST['ongoing']);
 	// Cycle through the $films_meta array.
 	// Note, in this example we just have one item, but this is helpful if you have multiple.
 
@@ -317,157 +344,3 @@ function wpt_save_films_meta( $post_id, $post ) {
 	endforeach;
 }
 add_action( 'save_post', 'wpt_save_films_meta', 1, 2 );
-
-function ongoing_filmography_items() {
-	$labels = array(
-		'name'               => __( 'Ongoing Films' ),
-		'singular_name'      => __( 'Ongoing Film' ),
-		'add_new'            => __( 'Add New Ongoing Film' ),
-		'add_new_item'       => __( 'Add New Ongoing Film' ),
-		'edit_item'          => __( 'Edit Ongoing Film' ),
-		'new_item'           => __( 'Add New Ongoing Film' ),
-		'view_item'          => __( 'View Ongoing Film' ),
-		'search_items'       => __( 'Search Ongoing Film' ),
-		'not_found'          => __( 'No Ongoing films found' ),
-		'not_found_in_trash' => __( 'No Ongoing film found in trash' )
-	);
-	$supports = array(
-		'title',
-		'thumbnail',
-		'revisions',
-	);
-	$args = array(
-		'labels'               => $labels,
-		'supports'             => $supports,
-		'public'               => true,
-		'capability_type'      => 'post',
-		'rewrite'              => array( 'slug' => 'ongoing_films' ),
-		'has_archive'          => true,
-		'menu_position'        => 30,
-		'register_meta_box_cb' => 'wpt_add_ongoing_film_metaboxes',
-	);
-	register_post_type( 'ongoing_films', $args );
-}
-add_action( 'init', 'ongoing_filmography_items' );
-/**
- * Adds a metabox to the right side of the screen under the “Publish” box
- */
-function wpt_add_ongoing_film_metaboxes() {
-	add_meta_box(
-		'wpt_ongoing_films_date',
-		'Film Date',
-		'wpt_ongoing_films_date',
-		'ongoing_films',
-		'normal',
-		'default'
-	);
-	add_meta_box(
-		'wpt_ongoing_films_link',
-		'Film Link',
-		'wpt_ongoing_films_link',
-		'ongoing_films',
-		'normal',
-		'default'
-	);
-}
-/**
- * Output the HTML for the metabox.
- */
-function wpt_ongoing_films_link() {
-	global $post;
-	// Nonce field to validate form request came from current site
-	wp_nonce_field( basename( __FILE__ ), 'ongoing_film_fields' );
-	// Get the link data if it's already been entered
-	$link = get_post_meta( $post->ID, 'link', true );
-	// Output the field
-	echo '<input type="text" name="link" value="' . esc_textarea( $link )  . '" class="widefat">';
-}
-
-function wpt_ongoing_films_date() {
-	global $post;
-	// Nonce field to validate form request came from current site
-	wp_nonce_field( basename( __FILE__ ), 'ongoing_film_fields' );
-	// Get the link data if it's already been entered
-	$link = get_post_meta( $post->ID, 'date', true );
-	// Output the field
-	echo '<input type="text" name="date" value="' . esc_textarea( $link )  . '" class="widefat">';
-}
-/**
- * Save the metabox data
- */
-function wpt_save_ongoing_films_meta( $post_id, $post ) {
-	// Return if the user doesn't have edit permissions.
-	if ( ! current_user_can( 'edit_post', $post_id ) ) {
-		return $post_id;
-	}
-	// Verify this came from the our screen and with proper authorization,
-	// because save_post can be triggered at other times.
-	if ( ! isset( $_POST['date'] ) || ! wp_verify_nonce( $_POST['ongoing_film_fields'], basename(__FILE__) ) ) {
-		return $post_id;
-    }
-    if ( ! isset( $_POST['link'] ) || ! wp_verify_nonce( $_POST['ongoing_film_fields'], basename(__FILE__) ) ) {
-		return $post_id;
-	}
-	// Now that we're authenticated, time to save the data.
-	// This sanitizes the data from the field and saves it into an array $films_meta.
-    $films_meta['date'] = esc_textarea( $_POST['date'] );
-    $films_meta['link'] = esc_textarea( $_POST['link'] );
-	// Cycle through the $films_meta array.
-	// Note, in this example we just have one item, but this is helpful if you have multiple.
-	foreach ( $films_meta as $key => $value ) :
-        // Don't store custom data twice
-		if ( 'revision' === $post->post_type ) {
-			return;
-		}
-		if ( get_post_meta( $post_id, $key, false ) ) {
-			// If the custom field already has a value, update it.
-			update_post_meta( $post_id, $key, $value );
-		} else{
-			// If the custom field doesn't have a value, add it.
-			add_post_meta( $post_id, $key, $value);
-          
-		}
-		if ( ! $value ) {
-			// Delete the meta key if there's no value
-			delete_post_meta( $post_id, $key );
-		}
-	endforeach;
-	$old_posts = get_posts(
-		array(
-			'post_type' => 'ongoing_films',
-			'orderby' => 'date',
-		));
-	$post_title = '';
-	$post_date = '';
-	$post_link = '';
-	$oldest_post = '';
-	$count = 0;
-	foreach($old_posts as $post){
-		$post_title = $post->post_title;
-		$oldest_post = $post;
-		$post_date = get_post_meta($post->ID,'date',true);
-		$post_link = get_post_meta($post->ID,'link',true);
-		$count++;
-		if($count == 4)
-			break;		
-	}
-	if($count == 4){
-		$postarr = array(
-			'ID' => '',
-			'post_title' => $post_title,
-			'post_name' => $post_title,
-			'post_type' => 'films',
-			'post_status' => 'publish',
-			'meta_input' => array(
-				'link' => $post_link,
-				'date' =>$post_date
-			)
-		);
-		remove_action( 'save_post', 'wpt_save_ongoing_films_meta' ,1,2);
-		$postid = wp_insert_post($postarr);
-		add_action( 'save_post', 'wpt_save_ongoing_films_meta',1,2);
-		wp_delete_post($oldest_post->ID);
-	}
-}
-add_action( 'save_post', 'wpt_save_ongoing_films_meta',1,2 );
-

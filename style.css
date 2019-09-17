@@ -602,6 +602,10 @@ ol.carousel-indicators {
 .filmography-head{
     margin-top: 15vh;
 }
+.past-films{
+    display:flex;
+    flex-wrap:wrap;
+}
 
     @media screen and (max-width: 1200px){
         .about p{
