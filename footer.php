@@ -3,11 +3,11 @@
 <div class="footerstyle row">
     <div class="col-md-6 col-sm-12 col-xm-12">
         <ul>
-            <li><a href="#about">ABOUT</a></li>
-            <li><a href="#facility">FACILITY</a></li>
-            <li><a href="#gear">GEAR</a></li>
-            <li><a href="#blog">BLOG</a></li>
-            <li><a href="#">FILMOGRAPHY</a></li>
+            <li><a href="/#about">ABOUT</a></li>
+            <li><a href="/#facility">FACILITY</a></li>
+            <li><a href="/#gear">GEAR</a></li>
+            <li><a href="/#blog">BLOG</a></li>
+            <li><a href="filmography">FILMOGRAPHY</a></li>
         </ul>
     </div>
     <div class="col-md-2 col-sm-12 col-xm-12 vl ">
@@ -26,34 +26,45 @@
 </body>
 
     <script>
-    var $jq = jQuery.noConflict()
-$jq(document).ready(function(){
+    var jQuery = jQuery.noConflict()
+jQuery(document).ready(function(){
   // Add scrollspy to <body>
-  $jq('body').scrollspy({target: ".navbar", offset: 50});   
+  jQuery('body').scrollspy({target: ".navbar", offset: 50});   
 
   // Add smooth scrolling on all links inside the navbar
-  $jq("#navbarText a").on('click', function(event) {
+  jQuery("#navbarText a").on('click', function(event) {
     // Make sure this.hash has a value before overriding default behavior
     if (this.hash !== "") {
       // Prevent default anchor click behavior
-      event.preventDefault();
+      // event.preventDefault();
 
       // Store hash
       var hash = this.hash;
-
-      // Using jQuery's animate() method to add smooth page scroll
-      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
-      $jq('html, body').animate({
-        scrollTop: $jq(hash).offset().top
+      if (jQuery(hash).length) {
+        jQuery('html, body').animate({
+        scrollTop: jQuery(hash).offset().top
       }, 800, function(){
    
         // Add hash (#) to URL when done scrolling (default click behavior)
         window.location.hash = hash;
       });
+      
+     }
+     else{
+      window.location.href = '../' + this.hash
+     }
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+
     }  // End if
+    else{
+      var href = this.href;
+
+      window.location.href = href;
+    }
   });
-	$jq('#nav-icon4').click(function(){
-		$jq(this).toggleClass('open');
+	jQuery('#nav-icon4').click(function(){
+		jQuery(this).toggleClass('open');
 	});
 });
 </script>

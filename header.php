@@ -47,7 +47,7 @@ aria-controls="navbarText" aria-expanded="true" aria-label="Toggle navigation">
                 <a class="nav-link" href="#blog">BLOG</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">FILMOGRAPHY</a>
+                <a class="nav-link" href="filmography">FILMOGRAPHY</a>
             </li>
         </ul>
 
@@ -76,7 +76,7 @@ aria-controls="navbarText" aria-expanded="true" aria-label="Toggle navigation">
                 <a class="nav-link" id="nav-link" href="#blog">BLOG</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" id="nav-link" href="#">FILMOGRAPHY</a>
+                <a class="nav-link" id="nav-link" href="filmography">FILMOGRAPHY</a>
             </li>
         </ul>
       </div>
