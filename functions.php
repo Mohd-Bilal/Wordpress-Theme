@@ -344,3 +344,8 @@ function wpt_save_films_meta( $post_id, $post ) {
 	endforeach;
 }
 add_action( 'save_post', 'wpt_save_films_meta', 1, 2 );
+
+
+add_filter( 'excerpt_length', function($length) {
+    return 65;
+} );

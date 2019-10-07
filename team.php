@@ -5,10 +5,12 @@
             <li data-target="#teamCarousel" data-slide-to="0" class="active"></li>
             <li data-target="#teamCarousel" data-slide-to="1"></li>
             <li data-target="#teamCarousel" data-slide-to="2"></li>
+            <li data-target="#teamCarousel" data-slide-to="3"></li>
+
         </ol>
         <div class="carousel-inner team-carousel-item">
             <?php
-            $args = array('post_type'=>'team','post_status'=>'publish','posts_per_page'=>3);
+            $args = array('post_type'=>'team','post_status'=>'publish','posts_per_page'=>4);
             $loop = new WP_Query($args);
             if($loop->have_posts()):
                 $flag = True;
@@ -28,7 +30,6 @@
                 </div>
                 <div class="col-md-8 align-self-center">
                     <h2><?php the_title() ?></h2>
-                    <br>
                     <p><?php the_excerpt() ?></p>
                 </div>
             </div>
