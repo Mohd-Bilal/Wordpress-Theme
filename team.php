@@ -1,6 +1,6 @@
 <h2 class="team-head" id="team">Team</h2>
 <div class="bd-example " style="margin-bottom:30px">
-    <div id="teamCarousel" class="carousel slide" style="margin: 0 auto;" data-ride="carousel">
+    <div id="teamCarousel" class="carousel slide" data-ride="carousel">
         <ol class="carousel-indicators" style="bottom:5wh">
             <li data-target="#teamCarousel" data-slide-to="0" class="active"></li>
             <li data-target="#teamCarousel" data-slide-to="1"></li>
@@ -8,7 +8,7 @@
             <li data-target="#teamCarousel" data-slide-to="3"></li>
 
         </ol>
-        <div class="carousel-inner team-carousel-item">
+        <div class="carousel-inner team-carousel-item" >
             <?php
             $args = array('post_type'=>'team','post_status'=>'publish','posts_per_page'=>4);
             $loop = new WP_Query($args);
@@ -24,11 +24,11 @@
             $flag = False;
             ?>
             <div class="team-description row align-items-center">
-                <div class="col-md-4 ">
+                <div class="col-md-4 col-xs-12">
                     <img src="<?php echo get_the_post_thumbnail_url(get_the_ID(),'full'); ?>"
                         class="img-fluid d-block rounded-circle team_carousel_image " alt="...">
                 </div>
-                <div class="col-md-8 align-self-center">
+                <div class="col-md-8 col-xs-12 align-self-center"  style="height:450px" >
                     <h2><?php the_title() ?></h2>
                     <p><?php the_excerpt() ?></p>
                 </div>
