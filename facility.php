@@ -5,7 +5,7 @@
 <div class="row card-deck" style="margin:0px;padding:0px">
     <!-- <div class="card-deck"> -->
     <?php
-        $args = array('post_type'=>'facility','post_status'=>'publish','posts_per_page'=>3);
+        $args = array('post_type'=>'facility','post_status'=>'publish','posts_per_page'=>4);
         $loop = new WP_Query($args);
         if($loop->have_posts()):
         while($loop->have_posts()) : $loop->the_post(); 
@@ -20,7 +20,7 @@
         <p><?php the_excerpt() ?></p>
     </div> -->
 
-    <div class="col-md-4 d-flex align-items-stretch">
+    <div class="col-md-3 d-flex align-items-stretch">
         <div class="card facilty_card " style="margin-left:0px;margin-right:0px">
             <img class="card-img-top facility_carousel_image" src="<?php echo get_the_post_thumbnail_url(get_the_ID(),'full'); ?>"
                 alt="Card image cap">
