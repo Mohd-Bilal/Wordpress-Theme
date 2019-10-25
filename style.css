@@ -777,6 +777,9 @@ ol.carousel-indicators {
     .car-overlay{
         top:15vw;
         text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
     }
 
     .car-overlay h1{
@@ -967,6 +970,9 @@ ol.carousel-indicators {
     .car-overlay{
         top:15vw;
         text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
     }
     .navbar{
         background-color: #000000;
@@ -1084,6 +1090,9 @@ ol.carousel-indicators {
     .car-overlay{
         top:15vw;
         text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
     }
 
     .car-overlay h1{
