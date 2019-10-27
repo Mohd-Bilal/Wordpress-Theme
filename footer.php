@@ -1,12 +1,12 @@
 <footer>
 <div class="container-fluid">
-<div class="footerstyle row">
+<div class="footerstyle row" id="footer">
     <div class="col-md-6 col-sm-12 col-xm-12">
         <ul>
-            <li><a href="/#about">ABOUT</a></li>
-            <li><a href="/#facility">FACILITY</a></li>
-            <li><a href="/#gear">GEAR</a></li>
-            <li><a href="/#blog">BLOG</a></li>
+            <li><a href="#about">ABOUT</a></li>
+            <li><a href="#facility">FACILITY</a></li>
+            <li><a href="#gear">GEAR</a></li>
+            <li><a href="#blog">BLOG</a></li>
             <li><a href="filmography">FILMOGRAPHY</a></li>
         </ul>
     </div>
@@ -65,7 +65,40 @@ jQuery(document).ready(function(){
   });
 	jQuery('#nav-icon4').click(function(){
 		jQuery(this).toggleClass('open');
-	});
+  });
+  
+  // Add smooth scrolling on all links inside the footer
+  jQuery("#footer a").on('click', function(event) {
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+      // Prevent default anchor click behavior
+      // event.preventDefault();
+
+      // Store hash
+      var hash = this.hash;
+      if (jQuery(hash).length) {
+        jQuery('html, body').animate({
+        scrollTop: jQuery(hash).offset().top
+      }, 800, function(){
+   
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      });
+      
+     }
+     else{
+      window.location.href = '../' + this.hash
+     }
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+
+    }  // End if
+    else{
+      var href = this.href;
+
+      window.location.href = href;
+    }
+  });
 });
 </script>
 </html>
