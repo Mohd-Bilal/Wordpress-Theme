@@ -38,6 +38,9 @@ function test(el){
 	// jQuery('#nav-icon4').click()
 }
 
+jQuery(window).scroll(function(){
+	jQuery('nav').toggleClass('scrolled', jQuery(this).scrollTop() > 490);
+});
 
 // jQuery(document.getElementById('links')).click(function(e){
 // 	console.log("njn ivedet")

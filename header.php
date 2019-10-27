@@ -15,8 +15,8 @@
 </head>
 <!-- <header> -->
 <body>
-<div class="navbar-wrapper"  >
-<nav class="navbar navbar-expand-lg navbar-right sticky-top  " >
+<div class="navbar-wrapper "  >
+<nav class="navbar  navbar-expand-lg navbar-right sticky-top  " >
 
     <!-- <button id="nav-icon4" style="position:relative;z-index:100" class="navbar-toggler custom-toggler" type="button" data-toggle="modal" data-target="#nav-modal"
         aria-controls="navbarText" aria-expanded="true" aria-label="Toggle navigation"> -->
