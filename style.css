@@ -207,6 +207,9 @@ hr{
     padding-top: 2%;
     padding-bottom: 8%;
 }
+.gear-img{
+    height:100%;
+}
 .modal-header{
     border: #000000;
     border-style: none;

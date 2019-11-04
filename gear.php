@@ -21,7 +21,7 @@
                     <div class="modal-content">
                         <div class="row">
                             <div class="col-md-6">
-                                <img src="<?php echo get_the_post_thumbnail_url(get_the_ID(),'full'); ?>"class="img-fluid d-block" alt="...">
+                                <img src="<?php echo get_the_post_thumbnail_url(get_the_ID(),'full'); ?>"class="img-fluid gear-img d-block" alt="..." >
                             </div>
                             <div class="col-md-6">
                                 <div class="modal-header">
@@ -64,7 +64,7 @@
                     <div class="modal-content">
                         <div class="row">
                             <div class="col-md-6">
-                                <img src="<?php echo get_the_post_thumbnail_url(get_the_ID(),'full'); ?>"class="img-fluid d-block" alt="...">
+                                <img src="<?php echo get_the_post_thumbnail_url(get_the_ID(),'full'); ?>"class="img-fluid gear-img d-block" alt="...">
                             </div>
                             <div class="col-md-6">
                                 <div class="modal-header">
@@ -107,7 +107,7 @@
                     <div class="modal-content">
                         <div class="row">
                             <div class="col-md-6">
-                                <img src="<?php echo get_the_post_thumbnail_url(get_the_ID(),'full'); ?>"class="img-fluid d-block" alt="...">
+                                <img src="<?php echo get_the_post_thumbnail_url(get_the_ID(),'full'); ?>"class="img-fluid gear-img d-block" alt="...">
                             </div>
                             <div class="col-md-6">
                                 <div class="modal-header">
