@@ -17,13 +17,13 @@
             <!-- Modal -->
             <div class="modal fade" id="<?php echo $stripped ?>" tabindex="-1" role="dialog"
                 aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-                <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+                <div style="max-width:100%" class="modal-dialog modal-dialog-centered modal-lg" role="document">
                     <div class="modal-content">
                         <div class="row">
-                            <div class="col-md-6">
+                            <div class="col-md-6 col-sm-12 col-xs-12">
                                 <img src="<?php echo get_the_post_thumbnail_url(get_the_ID(),'full'); ?>"class="img-fluid gear-img d-block" alt="..." >
                             </div>
-                            <div class="col-md-6">
+                            <div class="col-md-6 col-sm-12 col-xs-12">
                                 <div class="modal-header">
                                     
                                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
@@ -60,7 +60,7 @@
             <!-- Modal -->
             <div class="modal fade" id="<?php echo $stripped ?>" tabindex="-1" role="dialog"
                 aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-                <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+                <div style="max-width:100%" class="modal-dialog modal-dialog-centered modal-lg" role="document">
                     <div class="modal-content">
                         <div class="row">
                             <div class="col-md-6">
@@ -103,7 +103,7 @@
             <!-- Modal -->
             <div class="modal fade" id="<?php echo $stripped ?>" tabindex="-1" role="dialog"
                 aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-                <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+                <div style="max-width:100%" class="modal-dialog modal-dialog-centered modal-lg" role="document">
                     <div class="modal-content">
                         <div class="row">
                             <div class="col-md-6">

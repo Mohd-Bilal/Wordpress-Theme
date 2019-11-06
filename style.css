@@ -208,6 +208,8 @@ hr{
     padding-bottom: 8%;
 }
 .gear-img{
+    display: block;
+    /* width: auto; */
     height:100%;
 }
 .modal-header{
@@ -216,6 +218,10 @@ hr{
 }
 .modal-content{
     background-color: rgb(41, 40, 40);
+    margin: auto;
+    display: block;
+    width: 80%;
+    /* max-width: 700px; */
 }
 .modal-title{
     text-align: left;
@@ -685,6 +691,13 @@ ol.carousel-indicators {
   
 /* Large Phones */
   @media screen and (max-width: 767px){
+    .modal-content h1{
+        font-size: 1.9rem;
+    }
+
+    .modal-content p{
+        font-size: .9rem;
+    }
     #navbarText {
         background-color: #000000;
         position: absolute;
@@ -947,9 +960,13 @@ ol.carousel-indicators {
         font-size:1.5rem;
         margin-bottom: -10%;
         }
-        .gear{
+
+    .gear{
             padding-bottom: 15%;
-        }
+    }
+    .gear-img {
+        display: none !important;
+    }
      
 }
   
@@ -971,6 +988,7 @@ ol.carousel-indicators {
         height: 100%;
         background: rgba(0, 0, 0, 0.5);
     } */
+    
     
     #navbarText {
         background-color: #000000;
@@ -1262,6 +1280,9 @@ ol.carousel-indicators {
     }
     .gear{
         padding-bottom: 15%;
+    }
+    .gear-img {
+        display: none !important;
     }
  
   }
