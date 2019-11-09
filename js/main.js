@@ -56,3 +56,11 @@ jQuery(window).scroll(function(){
 // 	el.style.display = 'block'
 
 // });
+jQuery('body').on('show.bs.modal', function () { 
+	jQuery('.sticky-top').addClass("fixModalNav");
+	jQuery('body').addClass("fixModal"); 
+}); 
+jQuery('body').on('hidden.bs.modal', function () {
+	jQuery('.sticky-top').removeClass("fixModalNav");
+	jQuery('body').removeClass("fixModal"); 
+});

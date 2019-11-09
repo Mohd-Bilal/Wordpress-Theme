@@ -20,19 +20,20 @@
                 <div style="max-width:100%" class="modal-dialog modal-dialog-centered modal-lg" role="document">
                     <div class="modal-content">
                         <div class="row">
-                            <div class="col-md-6 col-sm-12 col-xs-12">
-                                <img src="<?php echo get_the_post_thumbnail_url(get_the_ID(),'full'); ?>"class="img-fluid gear-img d-block" alt="..." >
+                            <div class="col-md-6 col-sm-12 col-xs-12 d-flex align-items-stretch justify-content-center ">
+                                <img src="<?php echo get_the_post_thumbnail_url(get_the_ID(),'full'); ?>"  class="img-fluid gear-img d-block" alt="..." >
                             </div>
-                            <div class="col-md-6 col-sm-12 col-xs-12">
+                            <div class="col-md-6 col-sm-12 col-xs-12 d-flex align-items-stretch justify-content-center ">
+                                
+                                <div class="modal-body" style="text-align:left;">
+                                <h1 class="modal-title" style="text-align:left;" ><?php the_title() ?></h1>
+                                    <p ><?php the_excerpt() ?></p>
+                                </div>
                                 <div class="modal-header">
                                     
                                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                         <span aria-hidden="true">&times;</span>
                                     </button>
-                                </div>
-                                <div class="modal-body" style="text-align:left;">
-                                <h1 class="modal-title" style="text-align:left;" ><?php the_title() ?></h1>
-                                    <p><?php the_excerpt() ?></p>
                                 </div>
                             </div>
                         </div>
@@ -61,21 +62,22 @@
             <div class="modal fade" id="<?php echo $stripped ?>" tabindex="-1" role="dialog"
                 aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
                 <div style="max-width:100%" class="modal-dialog modal-dialog-centered modal-lg" role="document">
-                    <div class="modal-content">
+                <div class="modal-content">
                         <div class="row">
-                            <div class="col-md-6">
-                                <img src="<?php echo get_the_post_thumbnail_url(get_the_ID(),'full'); ?>"class="img-fluid gear-img d-block" alt="...">
+                            <div class="col-md-6 col-sm-12 col-xs-12 d-flex align-items-stretch justify-content-center ">
+                                <img src="<?php echo get_the_post_thumbnail_url(get_the_ID(),'full'); ?>"  class="img-fluid gear-img d-block" alt="..." >
                             </div>
-                            <div class="col-md-6">
+                            <div class="col-md-6 col-sm-12 col-xs-12 d-flex align-items-stretch justify-content-center ">
+                                
+                                <div class="modal-body" style="text-align:left;">
+                                <h1 class="modal-title" style="text-align:left;" ><?php the_title() ?></h1>
+                                    <p ><?php the_excerpt() ?></p>
+                                </div>
                                 <div class="modal-header">
                                     
                                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                         <span aria-hidden="true">&times;</span>
                                     </button>
-                                </div>
-                                <div class="modal-body">
-                                <h1 class="modal-title" ><?php the_title() ?></h1>
-                                    <p><?php the_excerpt() ?></p>
                                 </div>
                             </div>
                         </div>
@@ -106,19 +108,20 @@
                 <div style="max-width:100%" class="modal-dialog modal-dialog-centered modal-lg" role="document">
                     <div class="modal-content">
                         <div class="row">
-                            <div class="col-md-6">
-                                <img src="<?php echo get_the_post_thumbnail_url(get_the_ID(),'full'); ?>"class="img-fluid gear-img d-block" alt="...">
+                            <div class="col-md-6 col-sm-12 col-xs-12 d-flex align-items-stretch justify-content-center ">
+                                <img src="<?php echo get_the_post_thumbnail_url(get_the_ID(),'full'); ?>"  class="img-fluid gear-img d-block" alt="..." >
                             </div>
-                            <div class="col-md-6">
+                            <div class="col-md-6 col-sm-12 col-xs-12 d-flex align-items-stretch justify-content-center ">
+                                
+                                <div class="modal-body" style="text-align:left;">
+                                <h1 class="modal-title" style="text-align:left;" ><?php the_title() ?></h1>
+                                    <p ><?php the_excerpt() ?></p>
+                                </div>
                                 <div class="modal-header">
                                     
                                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                         <span aria-hidden="true">&times;</span>
                                     </button>
-                                </div>
-                                <div class="modal-body">
-                                <h1 class="modal-title" ><?php the_title() ?></h1>
-                                    <p><?php the_excerpt() ?></p>
                                 </div>
                             </div>
                         </div>
