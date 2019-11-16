@@ -12,11 +12,11 @@
     </div>
     <div class="col-md-2 col-sm-12 col-xm-12 vl ">
     <img class="container d-flex flex-cloumn align-items-center justify-content-centre" src=<?php  echo get_template_directory_uri().'/images/Image2.png' ?>  alt="">
-    <p>AUDIO STUDIOS</p>
+    <!-- <p>AUDIO STUDIOS</p> -->
     </div>
     <div class="col-md-4 col-sm-12 address">
         <h5>AuO2 Audio Studio</h5>
-        <p>LOREM IPSUM DOLOR SIT AMET, CONSECTETUR ADIPISCING ELIT. NON EST ISTA, INQUAM, PISO, MAGNA DISSENSIO. NON EST ISTA, INQUAM, PISO, MAGNA DISSENSIO</p>
+        <p>Nethaji Nagar,<br> Kadavanthra,<br>  Ernakulam,<br>  Kerala 682020</p>
     </div>
 </div>
 </div>

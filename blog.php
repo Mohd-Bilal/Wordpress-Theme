@@ -2,8 +2,7 @@
     <div class="row-fix">
         <div class="col-md-12">
             <h2 class="facility-head" style="text-align: center;" id="facility">Blog</h2>
-            <p class="blog_description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                incididunt ut labore et dolore magna aliqua. </p>
+            <p class="blog_description">Immerse into our journal to rejuvenate yourself into the world of sound and media. </p>
             <br>
         </div>
     </div>
