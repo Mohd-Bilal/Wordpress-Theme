@@ -16,10 +16,10 @@
     </div>
     <div class="col-md-4 col-sm-12 address">
         <h5>AuO2 Audio Studio</h5>
-	<p>1st FLOOR, ILLIKAL ARCADE,<br>
-	PUTHIYA ROAD JN. KADAVANTHRA,<br>  
-	ERNAKULAM,<br>  
-	KOCHi-682020</p>
+	<p>1st floor, Illikal Arcade,<br>
+	Puthiya Road Jn. Kadavanthra,<br>  
+	Ernakulam,<br>  
+	Kochi-682020</p>
     </div>
     </div>
 </div>
