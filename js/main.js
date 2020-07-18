@@ -27,7 +27,7 @@ const ClassName = {
 
 document.getElementById("navbarText").addEventListener("click",function (el){
 							el.preventDefault()	
-							jQuery('#nav-icon4').click()
+							
 });
 window.addEventListener("scroll",test);
 function test(el){
