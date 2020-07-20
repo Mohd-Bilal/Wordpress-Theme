@@ -1,28 +1,28 @@
 <footer>
 <div class="container-fluid">
-<div class="footerstyle row" id="footer">
-    <div class="col-md-6 col-sm-12 col-xm-12">
-        <ul>
-            <li><a href="#about">ABOUT</a></li>
-            <li><a href="#facility">FACILITY</a></li>
-            <li><a href="#gear">GEAR</a></li>
-            <li><a href="#blog">BLOG</a></li>
-            <li><a href="filmography">FILMOGRAPHY</a></li>
-        </ul>
-    </div>
-    <div class="col-md-2 col-sm-12 col-xm-12 vl ">
-    <img class="container d-flex flex-cloumn align-items-center justify-content-centre" src=<?php  echo get_template_directory_uri().'/images/Image2.png' ?>  alt="">
-    <!-- <p>AUDIO STUDIOS</p> -->
-    </div>
-    <div class="col-md-4 col-sm-12 address">
-        <h5>AuO2 Audio Studio</h5>
-	<p>1st floor, Illikal Arcade,<br>
-	Puthiya Road Jn. Kadavanthra,<br>  
-	Ernakulam,<br>  
-	Kochi-682020</p>
-    </div>
-    </div>
-</div>
+  <div class="footerstyle row align-items-center" id="footer">
+      <div class="col-md-6 col-sm-12 col-xm-12">
+          <ul>
+              <li><a href="#about">ABOUT</a></li>
+              <li><a href="#facility">FACILITY</a></li>
+              <li><a href="#gear">GEAR</a></li>
+              <li><a href="#blog">BLOG</a></li>
+              <li><a href="filmography">FILMOGRAPHY</a></li>
+          </ul>
+      </div>
+
+      <div class="col-md-2 col-sm-12 col-xm-12 vl ">
+        <img class="container d-flex flex-column" src=<?php  echo get_template_directory_uri().'/images/Image2.png' ?>  alt="">
+      </div>
+
+      <div class="col-md-3 col-sm-12 address">
+          <h5>AuO2 Audio Studio</h5>
+          <p>1st floor, Illikal Arcade,<br>
+          Puthiya Road Jn. Kadavanthra,<br>  
+          Ernakulam,<br>  
+          Kochi-682020</p>
+      </div>
+  </div>
 </div>
 </footer>
 

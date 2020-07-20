@@ -28,7 +28,7 @@ endif;
             <?php else : ?>
             <?php // Loop through each feed item and display each item as a hyperlink. ?>
             <?php foreach ( $rss_items as $item ) : ?>
-            <div class="col-md-4 d-flex align-items-stretch justify-content-center " style="text-align:center;">
+            <div class="col-md-4 d-flex align-items-stretch justify-content-center " style="text-align:center">
                 <div class="card blog_card mb-3">
                     <div class="card-body">
                         <h5 class="card-title blog_card_title"> <?php echo esc_html( $item->get_title() ); ?></h5>

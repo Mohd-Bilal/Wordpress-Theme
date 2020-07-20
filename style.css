@@ -67,7 +67,6 @@ a{
     margin-bottom: 5%;
     font-size: 1.75rem;
     word-wrap: break-word;
-    /* width: 250px; */
 }
 .blog_card_link{
     color: #c19663;
@@ -144,7 +143,7 @@ a{
     margin-right: -100px; */
 }
 .custom-toggler.navbar-toggler {
-    color: transparent;;
+    color: transparent;
 }
 .custom-toggler .navbar-toggler-icon {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(193,150,99)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
@@ -407,8 +406,14 @@ ol.carousel-indicators {
     /* border-bottom: 1px solid  #c19663; */
 }
     
+@media screen and (min-width: 1200px)
+{
+    .blog_card
+    {
+        width: 33vw;
 
-
+    }
+}
 
 /* Icon 1 */
 
@@ -499,21 +504,21 @@ ol.carousel-indicators {
 .vl{
     border-right: 2px solid #c19663;
     height: 16rem;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
 }
 .vl img{
-    padding-top: 50%;
     vertical-align: middle;
     margin: 0 auto
-    /* padding-bottom: 30%; */
 }
 .vl p{
     size:15px;
 }
 
 .address{
-    padding-left: 3%;
-    padding-right: 3%;
-    padding-top: 2%;
+    padding-left: 2vw;
+    vertical-align: middle;
 }
 .address h5{
     color:white;
