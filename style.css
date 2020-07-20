@@ -799,7 +799,7 @@ ol.carousel-indicators {
         margin: 0 auto;
         padding-top: 0%;
         width:50%;
-
+        padding-bottom: 20px;
     }
    
     .vl p{
@@ -1127,6 +1127,8 @@ ol.carousel-indicators {
         margin: 0 auto;
         padding-top: 0%;
         width:40%;
+        padding-bottom: 20px;
+
     }
    
     .vl p{
