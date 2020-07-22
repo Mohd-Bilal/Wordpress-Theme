@@ -374,9 +374,12 @@ hr{
     color:#c19663;;
     text-decoration: none;
 }
+
+
+
 ol.carousel-indicators {
-    position: absolute;
-    bottom: 10px;
+    /* position: absolute; */
+    /* bottom: 10px; */
     margin: 0;
     
     left: 0;
@@ -413,6 +416,10 @@ ol.carousel-indicators {
         width: 33vw;
 
     }
+    /* .team-description
+    {
+        max-width: 40vw;
+    } */
 }
 
 /* Icon 1 */
@@ -579,10 +586,10 @@ ol.carousel-indicators {
   }
 
 .team_carousel_image{
-    width: 80%;
+    width: 50%;
     border-radius:50%; 
-    margin-left: 7%;  
-    margin-bottom: 50%;
+    /* margin-left: 7%;   */
+    /* margin-bottom: 50%; */
 }
 .team_carousel{
     width: 100%;
@@ -590,33 +597,29 @@ ol.carousel-indicators {
     max-height: 500px !important;
 }
 .team-description{
-    margin-left: 12%;
-    font-size: 1.1rem;
-    margin-right: 5%;
-    margin-top: 10%;
+    font-size: calc(8px + 5 * ((100vw - 320px) / 680));
+    /* padding-right: 5%; */
+    /* padding-top: 10%; */
 }
 .team-description p{
-    margin-top: 5%;
-    margin-right: 15%;
+    /* padding-top: 5%; */
+    /* padding-right: 15%; */
     color:gray;
 
 }
-.team-carousel-item{
-    padding-top:2%;
-    padding-bottom:10vh
-}
+
 .team-head{
     text-align:center;
     font-size:5rem;
     padding-top: 5%;
     color: #FFEEDB;
-    margin-bottom: -5%;
+    padding-bottom: 5%;
 }
 
 .team-description h2{
     font-style: bold;
     color:white;
-    font-size:3rem;
+    font-size:calc(20px + 6 * ((100vw - 320px) / 680));;
 }
 
 .filmography{
@@ -857,11 +860,8 @@ ol.carousel-indicators {
         text-decoration: none;
     }
     ol.carousel-indicators {
-        position: absolute;
-        bottom: 10px;
         margin: 0;
-        left: 0;
-        right: 0;
+
         width: auto;
      }
      
@@ -963,10 +963,7 @@ ol.carousel-indicators {
         margin-bottom: 20%;
     
         }
-    .team-carousel-item{
-        padding-top:1%;
-        padding-bottom:21vh;
-        }
+
     .team-head{
         color:#FFEEDB;
         text-align:center;
@@ -1263,7 +1260,7 @@ ol.carousel-indicators {
         background-color: transparent;
     }
     .team_carousel_image{
-        width: 80%;
+        width: 60%;
         border-radius:50%; 
         margin-left: 10%;  
         margin-bottom: 4%;
@@ -1286,10 +1283,7 @@ ol.carousel-indicators {
         margin-bottom: 20%;
     
     }
-    .team-carousel-item{
-        padding-top:2%;
-        padding-bottom:12vh
-    }
+
     .team-head{
         color:#FFEEDB;
         text-align:center;
