@@ -1008,7 +1008,13 @@ ol.carousel-indicators {
         height: 100%;
         background: rgba(0, 0, 0, 0.5);
     } */
-    
+    .team-padding
+    {
+        height: 80vh!important;
+        /* flex-wrap: wrap; */
+        /* flex-direction: column; */
+        /* padding-bottom: 70px!important; */
+    }
     
     #navbarText {
         background-color: #000000;

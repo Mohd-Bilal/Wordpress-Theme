@@ -2,7 +2,7 @@
 <div class="bd-example ">
     <div id="teamCarousel" class="carousel slide " data-ride="carousel">
    
-        <div class="carousel-inner  justify-content-center"  >
+        <div class="carousel-inner  justify-content-center team-padding" >
             <div class="col-md-12 col-xs-12 align-self-center">
             <?php
             $args = array('post_type'=>'team','post_status'=>'publish','posts_per_page'=>4);
@@ -23,7 +23,7 @@
                         <img src="<?php echo get_the_post_thumbnail_url(get_the_ID(),'full'); ?>"
                             class="img-fluid  d-block rounded-circle team_carousel_image mx-auto" alt="...">
                     </div>
-                    <div class="team-description col-md-5 col-xs-12 align-self-center"   >
+                    <div class="team-description col-md-5 col-xs-12 align-self-center" >
                         <h2><?php the_title() ?></h2>
                         <p><?php the_excerpt() ?></p>
                     </div>
@@ -50,7 +50,7 @@
             <span class="sr-only">Next</span>
         </a>
     </div>
-    <ol class="carousel-indicators" style="position:static;" >
+    <ol class="carousel-indicators" style="position:static;padding-top:30px;" >
             <li data-target="#teamCarousel" data-slide-to="0" class="active"></li>
             <li data-target="#teamCarousel" data-slide-to="1"></li>
             <li data-target="#teamCarousel" data-slide-to="2"></li>
