@@ -27,6 +27,7 @@
             "Rohan",
             "Adarsh",
             "Ginson Fernandez");
+            sort($arr);
             foreach ($arr as $element) { 
         ?>
                     <div class="films col-md-12">
@@ -66,7 +67,7 @@
             "Varun N ",
             "Abhailal",
             "Arnold Antony ",
-            "Surabhi pandit",
+            "Surabhi Pandit",
             "Zahir Adam Bandukwala ",
             "Vanessa G. ",
             "Rajan",
@@ -76,6 +77,7 @@
             "Alexander Mikhlin ",
             "Ginson Fernandez",
             "Rizwan Yaqoob Ali");
+            sort($arr);
             foreach ($arr as $element) { 
         ?>
                     <div class="films col-md-12">
