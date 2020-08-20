@@ -1010,7 +1010,8 @@ ol.carousel-indicators {
     } */
     .team-padding
     {
-        height: 80vh!important;
+        height: 100vh!important;
+        max-height: 550px;
         /* flex-wrap: wrap; */
         /* flex-direction: column; */
         /* padding-bottom: 70px!important; */
@@ -1266,7 +1267,7 @@ ol.carousel-indicators {
         background-color: transparent;
     }
     .team_carousel_image{
-        width: 60%;
+        width: 40vw;
         border-radius:50%; 
         margin-left: 10%;  
         margin-bottom: 4%;

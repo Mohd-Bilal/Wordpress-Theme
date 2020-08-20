@@ -1,3 +1,4 @@
+<div id="team-nav"></div>
 <h2 class="team-head" id="team">Team</h2>
 <div class="bd-example ">
     <div id="teamCarousel" class="carousel slide " data-ride="carousel">

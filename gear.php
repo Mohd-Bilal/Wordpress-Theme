@@ -1,3 +1,4 @@
+<div id="gear-nav"></div>
 <div id="gear" class="gear-background">
     <h2 class="facility-head">Gear</h2>
     <div class="container">

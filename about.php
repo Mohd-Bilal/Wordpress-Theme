@@ -1,3 +1,4 @@
+<div id="about-nav"></div>
 <div class="about container  d-flex flex-cloumn align-items-center" id="about">
     <div class="row-fix ">
         <h1>About</h1>
