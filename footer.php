@@ -41,16 +41,17 @@ jQuery(document).ready(function(){
     if (this.hash !== "") {
       // Prevent default anchor click behavior
       // event.preventDefault();
-
+      
       // Store hash
       var hash = this.hash;
       if (jQuery(hash).length) {
         jQuery('html, body').animate({
-        scrollTop: jQuery(hash).offset().top
+        scrollTop: (jQuery(hash).offset().top -50)
       }, 800, function(){
    
         // Add hash (#) to URL when done scrolling (default click behavior)
-        window.location.hash = hash;
+        window.history.pushState(null,null,hash)
+        // window.location.hash = hash;
       });
       
      }
@@ -82,11 +83,11 @@ jQuery(document).ready(function(){
       var hash = this.hash;
       if (jQuery(hash).length) {
         jQuery('html, body').animate({
-        scrollTop: jQuery(hash).offset().top
+        scrollTop: (jQuery(hash).offset().top - 50)
       }, 800, function(){
    
         // Add hash (#) to URL when done scrolling (default click behavior)
-        window.location.hash = hash;
+        window.history.pushState(null,null,hash)
       });
       
      }

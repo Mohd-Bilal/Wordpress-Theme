@@ -1,4 +1,3 @@
-<div id="blog-nav"></div>
 <div class="" id="blog">
     <div class="row-fix">
         <div class="col-md-12">
