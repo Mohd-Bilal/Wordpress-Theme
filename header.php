@@ -44,7 +44,7 @@ aria-controls="navbarText" aria-expanded="true" aria-label="Toggle navigation">
                 <a class="nav-link" href="#gear">GEAR</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#gallery">GALLERY/a>
+                <a class="nav-link" href="#gallery">GALLERY</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="#team">TEAM</a>
